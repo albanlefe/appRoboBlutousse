@@ -1,0 +1,11 @@
+C:\Users\Alban\Desktop\PCBrs\2023\appRoboBlutousse\bin\Debug\appRoboBlutousse.exe.config
+C:\Users\Alban\Desktop\PCBrs\2023\appRoboBlutousse\bin\Debug\appRoboBlutousse.exe
+C:\Users\Alban\Desktop\PCBrs\2023\appRoboBlutousse\bin\Debug\appRoboBlutousse.pdb
+C:\Users\Alban\Desktop\PCBrs\2023\appRoboBlutousse\obj\Debug\appRoboBlutousse.csproj.AssemblyReference.cache
+C:\Users\Alban\Desktop\PCBrs\2023\appRoboBlutousse\obj\Debug\appRoboBlutousse.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alban\Desktop\PCBrs\2023\appRoboBlutousse\obj\Debug\appRoboBlutousse.Properties.Resources.resources
+C:\Users\Alban\Desktop\PCBrs\2023\appRoboBlutousse\obj\Debug\appRoboBlutousse.csproj.GenerateResource.cache
+C:\Users\Alban\Desktop\PCBrs\2023\appRoboBlutousse\obj\Debug\appRoboBlutousse.csproj.CoreCompileInputs.cache
+C:\Users\Alban\Desktop\PCBrs\2023\appRoboBlutousse\obj\Debug\appRoboBlutousse.exe
+C:\Users\Alban\Desktop\PCBrs\2023\appRoboBlutousse\obj\Debug\appRoboBlutousse.pdb
+C:\Users\Alban\Desktop\PCBrs\2023\appRoboBlutousse\obj\Debug\appRoboBlutousse.FenetrePrincipale.resources
