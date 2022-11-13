@@ -51,14 +51,14 @@ namespace appRoboBlutousse
             this.pjStrConfiguration = new System.Windows.Forms.TabPage();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label63 = new System.Windows.Forms.Label();
-            this.numericUpDown43 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown44 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown45 = new System.Windows.Forms.NumericUpDown();
+            this.nupStrConGrandDistanceArret = new System.Windows.Forms.NumericUpDown();
+            this.nupStrConMoyeneDistanceArret = new System.Windows.Forms.NumericUpDown();
+            this.nupStrConPetiteDistanceArret = new System.Windows.Forms.NumericUpDown();
             this.label68 = new System.Windows.Forms.Label();
             this.label64 = new System.Windows.Forms.Label();
-            this.numericUpDown40 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown41 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown42 = new System.Windows.Forms.NumericUpDown();
+            this.nupStrConGrandeDistance = new System.Windows.Forms.NumericUpDown();
+            this.nupStrConMoyenDistance = new System.Windows.Forms.NumericUpDown();
+            this.nupStrConPetiteDistance = new System.Windows.Forms.NumericUpDown();
             this.label39 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label38 = new System.Windows.Forms.Label();
@@ -74,67 +74,74 @@ namespace appRoboBlutousse
             this.numericUpDown9 = new System.Windows.Forms.NumericUpDown();
             this.label24 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
-            this.numericUpDown6 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown7 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown8 = new System.Windows.Forms.NumericUpDown();
+            this.nupStrConGrandAcceleration = new System.Windows.Forms.NumericUpDown();
+            this.nupStrConMoyenAcceleration = new System.Windows.Forms.NumericUpDown();
+            this.nupStrConPetiteAcceleration = new System.Windows.Forms.NumericUpDown();
             this.label22 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
-            this.numericUpDown5 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown4 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
+            this.nupStrConGrandVittesse = new System.Windows.Forms.NumericUpDown();
+            this.nupStrConMoyenVittesse = new System.Windows.Forms.NumericUpDown();
+            this.nupStrConPetitVittesse = new System.Windows.Forms.NumericUpDown();
             this.label20 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.pjStrConDeplacement = new System.Windows.Forms.TabPage();
-            this.numericUpDown26 = new System.Windows.Forms.NumericUpDown();
-            this.label45 = new System.Windows.Forms.Label();
-            this.label46 = new System.Windows.Forms.Label();
-            this.numericUpDown27 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown25 = new System.Windows.Forms.NumericUpDown();
-            this.label44 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.numericUpDown24 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown23 = new System.Windows.Forms.NumericUpDown();
-            this.label43 = new System.Windows.Forms.Label();
-            this.label42 = new System.Windows.Forms.Label();
-            this.label40 = new System.Windows.Forms.Label();
-            this.label41 = new System.Windows.Forms.Label();
-            this.numericUpDown21 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown22 = new System.Windows.Forms.NumericUpDown();
-            this.checkBox23 = new System.Windows.Forms.CheckBox();
-            this.checkBox22 = new System.Windows.Forms.CheckBox();
-            this.numericUpDown20 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown19 = new System.Windows.Forms.NumericUpDown();
+            this.nupStrDepCobY = new System.Windows.Forms.NumericUpDown();
+            this.labStrDepCobY = new System.Windows.Forms.Label();
+            this.labStrDepCobX = new System.Windows.Forms.Label();
+            this.nupStrDepCobX = new System.Windows.Forms.NumericUpDown();
+            this.nupStrDepCobNBPoint = new System.Windows.Forms.NumericUpDown();
+            this.labStrDepCobNBPoint = new System.Windows.Forms.Label();
+            this.cbStrDepCobChoixDuPoint = new System.Windows.Forms.ComboBox();
+            this.nupStrDepRecArcAngle = new System.Windows.Forms.NumericUpDown();
+            this.nupStrDepRecArcRayon = new System.Windows.Forms.NumericUpDown();
+            this.labStrDepRecArcRayon = new System.Windows.Forms.Label();
+            this.labStrDepRecArcAngle = new System.Windows.Forms.Label();
+            this.labStrDepRecArcY = new System.Windows.Forms.Label();
+            this.labStrDepRecArcX = new System.Windows.Forms.Label();
+            this.nupStrDepRecArcY = new System.Windows.Forms.NumericUpDown();
+            this.nupStrDepRecArcX = new System.Windows.Forms.NumericUpDown();
+            this.chbStrDepAngle = new System.Windows.Forms.CheckBox();
+            this.chbStrDepLigne = new System.Windows.Forms.CheckBox();
+            this.nupStrDepAngle = new System.Windows.Forms.NumericUpDown();
+            this.nupStrDepLigne = new System.Windows.Forms.NumericUpDown();
             this.chbStrDepArcdecercle = new System.Windows.Forms.CheckBox();
-            this.label36 = new System.Windows.Forms.Label();
-            this.numericUpDown18 = new System.Windows.Forms.NumericUpDown();
-            this.label35 = new System.Windows.Forms.Label();
-            this.checkBox17 = new System.Windows.Forms.CheckBox();
-            this.checkBox16 = new System.Windows.Forms.CheckBox();
-            this.label34 = new System.Windows.Forms.Label();
-            this.checkBox15 = new System.Windows.Forms.CheckBox();
-            this.checkBox14 = new System.Windows.Forms.CheckBox();
-            this.numericUpDown17 = new System.Windows.Forms.NumericUpDown();
-            this.label33 = new System.Windows.Forms.Label();
-            this.numericUpDown16 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown15 = new System.Windows.Forms.NumericUpDown();
-            this.checkBox13 = new System.Windows.Forms.CheckBox();
-            this.checkBox12 = new System.Windows.Forms.CheckBox();
-            this.checkBox11 = new System.Windows.Forms.CheckBox();
-            this.checkBox8 = new System.Windows.Forms.CheckBox();
-            this.checkBox7 = new System.Windows.Forms.CheckBox();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.numericUpDown12 = new System.Windows.Forms.NumericUpDown();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.label31 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
-            this.numericUpDown11 = new System.Windows.Forms.NumericUpDown();
+            this.labStrDepRecType = new System.Windows.Forms.Label();
+            this.nupStrDepRecNouvellePosition = new System.Windows.Forms.NumericUpDown();
+            this.labStrDepReqNouvellePosition = new System.Windows.Forms.Label();
+            this.chbStrDepRecAxeY = new System.Windows.Forms.CheckBox();
+            this.chbStrDepRecAxeX = new System.Windows.Forms.CheckBox();
+            this.labStrDepRecAxe = new System.Windows.Forms.Label();
+            this.chbStrDepRecTypeArrier = new System.Windows.Forms.CheckBox();
+            this.chbStrDepRecTypeAvan = new System.Windows.Forms.CheckBox();
+            this.nupStrDepRecDistanceMur = new System.Windows.Forms.NumericUpDown();
+            this.labStrDepRecDistMur = new System.Windows.Forms.Label();
+            this.chbStrDepPV = new System.Windows.Forms.CheckBox();
+            this.chbStrDepGV = new System.Windows.Forms.CheckBox();
+            this.chbStrDepMV = new System.Windows.Forms.CheckBox();
+            this.nupStrDepDepA = new System.Windows.Forms.NumericUpDown();
+            this.chbStrDepDeplacementA = new System.Windows.Forms.CheckBox();
+            this.labStrDepDepY = new System.Windows.Forms.Label();
+            this.labStrDepDepX = new System.Windows.Forms.Label();
+            this.nupStrDepDepY = new System.Windows.Forms.NumericUpDown();
             this.chbStrDepCourbedebesier = new System.Windows.Forms.CheckBox();
             this.chbStrDepRecalage = new System.Windows.Forms.CheckBox();
             this.chbStrDepDeplacement = new System.Windows.Forms.CheckBox();
             this.chbStrDepDeplacementXY = new System.Windows.Forms.CheckBox();
-            this.numericUpDown10 = new System.Windows.Forms.NumericUpDown();
+            this.nupStrDepDepX = new System.Windows.Forms.NumericUpDown();
             this.spcStrDepPrepaVisu = new System.Windows.Forms.SplitContainer();
-            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
+            this.label35 = new System.Windows.Forms.Label();
+            this.label36 = new System.Windows.Forms.Label();
+            this.nupStrDepArret = new System.Windows.Forms.NumericUpDown();
+            this.nupStrDepDistance = new System.Windows.Forms.NumericUpDown();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
+            this.chbStrDepPerssonaliser = new System.Windows.Forms.CheckBox();
+            this.nupStrDepAcceleration = new System.Windows.Forms.NumericUpDown();
+            this.nupStrDepVittesse = new System.Windows.Forms.NumericUpDown();
+            this.chbStrDepCorectionPosition = new System.Windows.Forms.CheckBox();
+            this.chbStrDepCorAngleFin = new System.Windows.Forms.CheckBox();
+            this.chbStrDepCorAngleDebut = new System.Windows.Forms.CheckBox();
+            this.rtbStrDepDebug = new System.Windows.Forms.RichTextBox();
             this.label25 = new System.Windows.Forms.Label();
             this.tacStrActRoPlateau = new System.Windows.Forms.TabPage();
             this.numericUpDown38 = new System.Windows.Forms.NumericUpDown();
@@ -259,41 +266,44 @@ namespace appRoboBlutousse
             this.spcEditeBp.SuspendLayout();
             this.tbcStrConfigurateur.SuspendLayout();
             this.pjStrConfiguration.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown43)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown44)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown45)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown40)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown41)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown42)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupStrConGrandDistanceArret)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupStrConMoyeneDistanceArret)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupStrConPetiteDistanceArret)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupStrConGrandeDistance)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupStrConMoyenDistance)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupStrConPetiteDistance)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupStrConGrandAcceleration)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupStrConMoyenAcceleration)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupStrConPetiteAcceleration)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupStrConGrandVittesse)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupStrConMoyenVittesse)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupStrConPetitVittesse)).BeginInit();
             this.pjStrConDeplacement.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown26)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown27)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown25)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown24)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown23)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown21)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown22)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown20)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown19)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown18)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown17)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown16)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupStrDepCobY)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupStrDepCobX)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupStrDepCobNBPoint)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupStrDepRecArcAngle)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupStrDepRecArcRayon)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupStrDepRecArcY)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupStrDepRecArcX)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupStrDepAngle)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupStrDepLigne)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupStrDepRecNouvellePosition)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupStrDepRecDistanceMur)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupStrDepDepA)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupStrDepDepY)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupStrDepDepX)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.spcStrDepPrepaVisu)).BeginInit();
+            this.spcStrDepPrepaVisu.Panel1.SuspendLayout();
             this.spcStrDepPrepaVisu.Panel2.SuspendLayout();
             this.spcStrDepPrepaVisu.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nupStrDepArret)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupStrDepDistance)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupStrDepAcceleration)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupStrDepVittesse)).BeginInit();
             this.tacStrActRoPlateau.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown38)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown37)).BeginInit();
@@ -357,7 +367,7 @@ namespace appRoboBlutousse
             this.tacMain.Margin = new System.Windows.Forms.Padding(2);
             this.tacMain.Name = "tacMain";
             this.tacMain.SelectedIndex = 0;
-            this.tacMain.Size = new System.Drawing.Size(1367, 748);
+            this.tacMain.Size = new System.Drawing.Size(1457, 800);
             this.tacMain.TabIndex = 0;
             // 
             // tapMainStr
@@ -368,7 +378,7 @@ namespace appRoboBlutousse
             this.tapMainStr.Margin = new System.Windows.Forms.Padding(2);
             this.tapMainStr.Name = "tapMainStr";
             this.tapMainStr.Padding = new System.Windows.Forms.Padding(2);
-            this.tapMainStr.Size = new System.Drawing.Size(1359, 722);
+            this.tapMainStr.Size = new System.Drawing.Size(1449, 774);
             this.tapMainStr.TabIndex = 0;
             this.tapMainStr.Text = "Strategiet";
             // 
@@ -389,8 +399,8 @@ namespace appRoboBlutousse
             // spcStrHorisontal.Panel2
             // 
             this.spcStrHorisontal.Panel2.Controls.Add(this.spcEditeBp);
-            this.spcStrHorisontal.Size = new System.Drawing.Size(1355, 718);
-            this.spcStrHorisontal.SplitterDistance = 586;
+            this.spcStrHorisontal.Size = new System.Drawing.Size(1445, 770);
+            this.spcStrHorisontal.SplitterDistance = 638;
             this.spcStrHorisontal.TabIndex = 0;
             // 
             // spcStrMapTreeView
@@ -409,8 +419,8 @@ namespace appRoboBlutousse
             // 
             this.spcStrMapTreeView.Panel2.BackColor = System.Drawing.Color.Transparent;
             this.spcStrMapTreeView.Panel2.Controls.Add(this.tctStrVueStrategie);
-            this.spcStrMapTreeView.Size = new System.Drawing.Size(1355, 586);
-            this.spcStrMapTreeView.SplitterDistance = 888;
+            this.spcStrMapTreeView.Size = new System.Drawing.Size(1445, 638);
+            this.spcStrMapTreeView.SplitterDistance = 946;
             this.spcStrMapTreeView.TabIndex = 0;
             // 
             // picStrTable
@@ -419,7 +429,7 @@ namespace appRoboBlutousse
             this.picStrTable.Image = global::appRoboBlutousse.Properties.Resources.Sans_titre;
             this.picStrTable.Location = new System.Drawing.Point(0, 0);
             this.picStrTable.Name = "picStrTable";
-            this.picStrTable.Size = new System.Drawing.Size(888, 586);
+            this.picStrTable.Size = new System.Drawing.Size(946, 638);
             this.picStrTable.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picStrTable.TabIndex = 0;
             this.picStrTable.TabStop = false;
@@ -433,7 +443,7 @@ namespace appRoboBlutousse
             this.tctStrVueStrategie.Location = new System.Drawing.Point(0, 0);
             this.tctStrVueStrategie.Name = "tctStrVueStrategie";
             this.tctStrVueStrategie.SelectedIndex = 0;
-            this.tctStrVueStrategie.Size = new System.Drawing.Size(463, 586);
+            this.tctStrVueStrategie.Size = new System.Drawing.Size(495, 638);
             this.tctStrVueStrategie.TabIndex = 0;
             // 
             // pjStrVueArbre
@@ -442,7 +452,7 @@ namespace appRoboBlutousse
             this.pjStrVueArbre.Location = new System.Drawing.Point(4, 22);
             this.pjStrVueArbre.Name = "pjStrVueArbre";
             this.pjStrVueArbre.Padding = new System.Windows.Forms.Padding(3);
-            this.pjStrVueArbre.Size = new System.Drawing.Size(455, 560);
+            this.pjStrVueArbre.Size = new System.Drawing.Size(487, 612);
             this.pjStrVueArbre.TabIndex = 0;
             this.pjStrVueArbre.Text = "Arbre";
             this.pjStrVueArbre.UseVisualStyleBackColor = true;
@@ -452,7 +462,7 @@ namespace appRoboBlutousse
             this.trvStrAbr.Dock = System.Windows.Forms.DockStyle.Fill;
             this.trvStrAbr.Location = new System.Drawing.Point(3, 3);
             this.trvStrAbr.Name = "trvStrAbr";
-            this.trvStrAbr.Size = new System.Drawing.Size(449, 554);
+            this.trvStrAbr.Size = new System.Drawing.Size(481, 606);
             this.trvStrAbr.TabIndex = 0;
             // 
             // pjStrVueChekBox
@@ -461,7 +471,7 @@ namespace appRoboBlutousse
             this.pjStrVueChekBox.Location = new System.Drawing.Point(4, 22);
             this.pjStrVueChekBox.Name = "pjStrVueChekBox";
             this.pjStrVueChekBox.Padding = new System.Windows.Forms.Padding(3);
-            this.pjStrVueChekBox.Size = new System.Drawing.Size(455, 560);
+            this.pjStrVueChekBox.Size = new System.Drawing.Size(487, 612);
             this.pjStrVueChekBox.TabIndex = 1;
             this.pjStrVueChekBox.Text = "Check box";
             this.pjStrVueChekBox.UseVisualStyleBackColor = true;
@@ -472,7 +482,7 @@ namespace appRoboBlutousse
             this.chbStrChe.FormattingEnabled = true;
             this.chbStrChe.Location = new System.Drawing.Point(3, 3);
             this.chbStrChe.Name = "chbStrChe";
-            this.chbStrChe.Size = new System.Drawing.Size(449, 554);
+            this.chbStrChe.Size = new System.Drawing.Size(481, 606);
             this.chbStrChe.TabIndex = 0;
             // 
             // pjStrVueTxt
@@ -481,7 +491,7 @@ namespace appRoboBlutousse
             this.pjStrVueTxt.Location = new System.Drawing.Point(4, 22);
             this.pjStrVueTxt.Name = "pjStrVueTxt";
             this.pjStrVueTxt.Padding = new System.Windows.Forms.Padding(3);
-            this.pjStrVueTxt.Size = new System.Drawing.Size(455, 560);
+            this.pjStrVueTxt.Size = new System.Drawing.Size(487, 612);
             this.pjStrVueTxt.TabIndex = 2;
             this.pjStrVueTxt.Text = "Txt";
             this.pjStrVueTxt.UseVisualStyleBackColor = true;
@@ -491,7 +501,7 @@ namespace appRoboBlutousse
             this.richTextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.richTextBox1.Location = new System.Drawing.Point(3, 3);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(449, 554);
+            this.richTextBox1.Size = new System.Drawing.Size(481, 606);
             this.richTextBox1.TabIndex = 0;
             this.richTextBox1.Text = "";
             // 
@@ -519,8 +529,8 @@ namespace appRoboBlutousse
             this.spcEditeBp.Panel2.Controls.Add(this.button3);
             this.spcEditeBp.Panel2.Controls.Add(this.button2);
             this.spcEditeBp.Panel2.Controls.Add(this.button1);
-            this.spcEditeBp.Size = new System.Drawing.Size(1355, 128);
-            this.spcEditeBp.SplitterDistance = 1174;
+            this.spcEditeBp.Size = new System.Drawing.Size(1445, 128);
+            this.spcEditeBp.SplitterDistance = 1264;
             this.spcEditeBp.TabIndex = 0;
             // 
             // tbcStrConfigurateur
@@ -534,21 +544,21 @@ namespace appRoboBlutousse
             this.tbcStrConfigurateur.Margin = new System.Windows.Forms.Padding(0);
             this.tbcStrConfigurateur.Name = "tbcStrConfigurateur";
             this.tbcStrConfigurateur.SelectedIndex = 0;
-            this.tbcStrConfigurateur.Size = new System.Drawing.Size(1174, 128);
+            this.tbcStrConfigurateur.Size = new System.Drawing.Size(1264, 128);
             this.tbcStrConfigurateur.TabIndex = 0;
             // 
             // pjStrConfiguration
             // 
             this.pjStrConfiguration.Controls.Add(this.textBox1);
             this.pjStrConfiguration.Controls.Add(this.label63);
-            this.pjStrConfiguration.Controls.Add(this.numericUpDown43);
-            this.pjStrConfiguration.Controls.Add(this.numericUpDown44);
-            this.pjStrConfiguration.Controls.Add(this.numericUpDown45);
+            this.pjStrConfiguration.Controls.Add(this.nupStrConGrandDistanceArret);
+            this.pjStrConfiguration.Controls.Add(this.nupStrConMoyeneDistanceArret);
+            this.pjStrConfiguration.Controls.Add(this.nupStrConPetiteDistanceArret);
             this.pjStrConfiguration.Controls.Add(this.label68);
             this.pjStrConfiguration.Controls.Add(this.label64);
-            this.pjStrConfiguration.Controls.Add(this.numericUpDown40);
-            this.pjStrConfiguration.Controls.Add(this.numericUpDown41);
-            this.pjStrConfiguration.Controls.Add(this.numericUpDown42);
+            this.pjStrConfiguration.Controls.Add(this.nupStrConGrandeDistance);
+            this.pjStrConfiguration.Controls.Add(this.nupStrConMoyenDistance);
+            this.pjStrConfiguration.Controls.Add(this.nupStrConPetiteDistance);
             this.pjStrConfiguration.Controls.Add(this.label39);
             this.pjStrConfiguration.Controls.Add(this.comboBox1);
             this.pjStrConfiguration.Controls.Add(this.label38);
@@ -564,27 +574,27 @@ namespace appRoboBlutousse
             this.pjStrConfiguration.Controls.Add(this.numericUpDown9);
             this.pjStrConfiguration.Controls.Add(this.label24);
             this.pjStrConfiguration.Controls.Add(this.label23);
-            this.pjStrConfiguration.Controls.Add(this.numericUpDown6);
-            this.pjStrConfiguration.Controls.Add(this.numericUpDown7);
-            this.pjStrConfiguration.Controls.Add(this.numericUpDown8);
+            this.pjStrConfiguration.Controls.Add(this.nupStrConGrandAcceleration);
+            this.pjStrConfiguration.Controls.Add(this.nupStrConMoyenAcceleration);
+            this.pjStrConfiguration.Controls.Add(this.nupStrConPetiteAcceleration);
             this.pjStrConfiguration.Controls.Add(this.label22);
             this.pjStrConfiguration.Controls.Add(this.label21);
-            this.pjStrConfiguration.Controls.Add(this.numericUpDown5);
-            this.pjStrConfiguration.Controls.Add(this.numericUpDown4);
-            this.pjStrConfiguration.Controls.Add(this.numericUpDown3);
+            this.pjStrConfiguration.Controls.Add(this.nupStrConGrandVittesse);
+            this.pjStrConfiguration.Controls.Add(this.nupStrConMoyenVittesse);
+            this.pjStrConfiguration.Controls.Add(this.nupStrConPetitVittesse);
             this.pjStrConfiguration.Controls.Add(this.label20);
             this.pjStrConfiguration.Controls.Add(this.label19);
             this.pjStrConfiguration.Location = new System.Drawing.Point(4, 22);
             this.pjStrConfiguration.Name = "pjStrConfiguration";
             this.pjStrConfiguration.Padding = new System.Windows.Forms.Padding(3);
-            this.pjStrConfiguration.Size = new System.Drawing.Size(1166, 102);
+            this.pjStrConfiguration.Size = new System.Drawing.Size(1256, 102);
             this.pjStrConfiguration.TabIndex = 0;
             this.pjStrConfiguration.Text = "Configuration";
             this.pjStrConfiguration.UseVisualStyleBackColor = true;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(888, 70);
+            this.textBox1.Location = new System.Drawing.Point(889, 69);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(120, 20);
             this.textBox1.TabIndex = 38;
@@ -598,26 +608,41 @@ namespace appRoboBlutousse
             this.label63.TabIndex = 37;
             this.label63.Text = "Nom";
             // 
-            // numericUpDown43
+            // nupStrConGrandDistanceArret
             // 
-            this.numericUpDown43.Location = new System.Drawing.Point(317, 60);
-            this.numericUpDown43.Name = "numericUpDown43";
-            this.numericUpDown43.Size = new System.Drawing.Size(51, 20);
-            this.numericUpDown43.TabIndex = 36;
+            this.nupStrConGrandDistanceArret.Location = new System.Drawing.Point(317, 60);
+            this.nupStrConGrandDistanceArret.Name = "nupStrConGrandDistanceArret";
+            this.nupStrConGrandDistanceArret.Size = new System.Drawing.Size(51, 20);
+            this.nupStrConGrandDistanceArret.TabIndex = 36;
+            this.nupStrConGrandDistanceArret.Value = new decimal(new int[] {
+            34,
+            0,
+            0,
+            0});
             // 
-            // numericUpDown44
+            // nupStrConMoyeneDistanceArret
             // 
-            this.numericUpDown44.Location = new System.Drawing.Point(317, 43);
-            this.numericUpDown44.Name = "numericUpDown44";
-            this.numericUpDown44.Size = new System.Drawing.Size(51, 20);
-            this.numericUpDown44.TabIndex = 35;
+            this.nupStrConMoyeneDistanceArret.Location = new System.Drawing.Point(317, 43);
+            this.nupStrConMoyeneDistanceArret.Name = "nupStrConMoyeneDistanceArret";
+            this.nupStrConMoyeneDistanceArret.Size = new System.Drawing.Size(51, 20);
+            this.nupStrConMoyeneDistanceArret.TabIndex = 35;
+            this.nupStrConMoyeneDistanceArret.Value = new decimal(new int[] {
+            24,
+            0,
+            0,
+            0});
             // 
-            // numericUpDown45
+            // nupStrConPetiteDistanceArret
             // 
-            this.numericUpDown45.Location = new System.Drawing.Point(317, 24);
-            this.numericUpDown45.Name = "numericUpDown45";
-            this.numericUpDown45.Size = new System.Drawing.Size(51, 20);
-            this.numericUpDown45.TabIndex = 34;
+            this.nupStrConPetiteDistanceArret.Location = new System.Drawing.Point(317, 24);
+            this.nupStrConPetiteDistanceArret.Name = "nupStrConPetiteDistanceArret";
+            this.nupStrConPetiteDistanceArret.Size = new System.Drawing.Size(51, 20);
+            this.nupStrConPetiteDistanceArret.TabIndex = 34;
+            this.nupStrConPetiteDistanceArret.Value = new decimal(new int[] {
+            14,
+            0,
+            0,
+            0});
             // 
             // label68
             // 
@@ -637,26 +662,41 @@ namespace appRoboBlutousse
             this.label64.TabIndex = 32;
             this.label64.Text = "Distance en cm";
             // 
-            // numericUpDown40
+            // nupStrConGrandeDistance
             // 
-            this.numericUpDown40.Location = new System.Drawing.Point(234, 60);
-            this.numericUpDown40.Name = "numericUpDown40";
-            this.numericUpDown40.Size = new System.Drawing.Size(71, 20);
-            this.numericUpDown40.TabIndex = 30;
+            this.nupStrConGrandeDistance.Location = new System.Drawing.Point(234, 60);
+            this.nupStrConGrandeDistance.Name = "nupStrConGrandeDistance";
+            this.nupStrConGrandeDistance.Size = new System.Drawing.Size(71, 20);
+            this.nupStrConGrandeDistance.TabIndex = 30;
+            this.nupStrConGrandeDistance.Value = new decimal(new int[] {
+            33,
+            0,
+            0,
+            0});
             // 
-            // numericUpDown41
+            // nupStrConMoyenDistance
             // 
-            this.numericUpDown41.Location = new System.Drawing.Point(234, 43);
-            this.numericUpDown41.Name = "numericUpDown41";
-            this.numericUpDown41.Size = new System.Drawing.Size(71, 20);
-            this.numericUpDown41.TabIndex = 29;
+            this.nupStrConMoyenDistance.Location = new System.Drawing.Point(234, 43);
+            this.nupStrConMoyenDistance.Name = "nupStrConMoyenDistance";
+            this.nupStrConMoyenDistance.Size = new System.Drawing.Size(71, 20);
+            this.nupStrConMoyenDistance.TabIndex = 29;
+            this.nupStrConMoyenDistance.Value = new decimal(new int[] {
+            23,
+            0,
+            0,
+            0});
             // 
-            // numericUpDown42
+            // nupStrConPetiteDistance
             // 
-            this.numericUpDown42.Location = new System.Drawing.Point(234, 24);
-            this.numericUpDown42.Name = "numericUpDown42";
-            this.numericUpDown42.Size = new System.Drawing.Size(71, 20);
-            this.numericUpDown42.TabIndex = 28;
+            this.nupStrConPetiteDistance.Location = new System.Drawing.Point(234, 24);
+            this.nupStrConPetiteDistance.Name = "nupStrConPetiteDistance";
+            this.nupStrConPetiteDistance.Size = new System.Drawing.Size(71, 20);
+            this.nupStrConPetiteDistance.TabIndex = 28;
+            this.nupStrConPetiteDistance.Value = new decimal(new int[] {
+            13,
+            0,
+            0,
+            0});
             // 
             // label39
             // 
@@ -794,26 +834,41 @@ namespace appRoboBlutousse
             this.label23.TabIndex = 10;
             this.label23.Text = "Acceleration";
             // 
-            // numericUpDown6
+            // nupStrConGrandAcceleration
             // 
-            this.numericUpDown6.Location = new System.Drawing.Point(161, 60);
-            this.numericUpDown6.Name = "numericUpDown6";
-            this.numericUpDown6.Size = new System.Drawing.Size(67, 20);
-            this.numericUpDown6.TabIndex = 9;
+            this.nupStrConGrandAcceleration.Location = new System.Drawing.Point(161, 60);
+            this.nupStrConGrandAcceleration.Name = "nupStrConGrandAcceleration";
+            this.nupStrConGrandAcceleration.Size = new System.Drawing.Size(67, 20);
+            this.nupStrConGrandAcceleration.TabIndex = 9;
+            this.nupStrConGrandAcceleration.Value = new decimal(new int[] {
+            32,
+            0,
+            0,
+            0});
             // 
-            // numericUpDown7
+            // nupStrConMoyenAcceleration
             // 
-            this.numericUpDown7.Location = new System.Drawing.Point(161, 43);
-            this.numericUpDown7.Name = "numericUpDown7";
-            this.numericUpDown7.Size = new System.Drawing.Size(67, 20);
-            this.numericUpDown7.TabIndex = 8;
+            this.nupStrConMoyenAcceleration.Location = new System.Drawing.Point(161, 43);
+            this.nupStrConMoyenAcceleration.Name = "nupStrConMoyenAcceleration";
+            this.nupStrConMoyenAcceleration.Size = new System.Drawing.Size(67, 20);
+            this.nupStrConMoyenAcceleration.TabIndex = 8;
+            this.nupStrConMoyenAcceleration.Value = new decimal(new int[] {
+            22,
+            0,
+            0,
+            0});
             // 
-            // numericUpDown8
+            // nupStrConPetiteAcceleration
             // 
-            this.numericUpDown8.Location = new System.Drawing.Point(161, 24);
-            this.numericUpDown8.Name = "numericUpDown8";
-            this.numericUpDown8.Size = new System.Drawing.Size(67, 20);
-            this.numericUpDown8.TabIndex = 7;
+            this.nupStrConPetiteAcceleration.Location = new System.Drawing.Point(161, 24);
+            this.nupStrConPetiteAcceleration.Name = "nupStrConPetiteAcceleration";
+            this.nupStrConPetiteAcceleration.Size = new System.Drawing.Size(67, 20);
+            this.nupStrConPetiteAcceleration.TabIndex = 7;
+            this.nupStrConPetiteAcceleration.Value = new decimal(new int[] {
+            12,
+            0,
+            0,
+            0});
             // 
             // label22
             // 
@@ -833,26 +888,41 @@ namespace appRoboBlutousse
             this.label21.TabIndex = 5;
             this.label21.Text = "Grand vittesse";
             // 
-            // numericUpDown5
+            // nupStrConGrandVittesse
             // 
-            this.numericUpDown5.Location = new System.Drawing.Point(88, 60);
-            this.numericUpDown5.Name = "numericUpDown5";
-            this.numericUpDown5.Size = new System.Drawing.Size(67, 20);
-            this.numericUpDown5.TabIndex = 4;
+            this.nupStrConGrandVittesse.Location = new System.Drawing.Point(88, 60);
+            this.nupStrConGrandVittesse.Name = "nupStrConGrandVittesse";
+            this.nupStrConGrandVittesse.Size = new System.Drawing.Size(67, 20);
+            this.nupStrConGrandVittesse.TabIndex = 4;
+            this.nupStrConGrandVittesse.Value = new decimal(new int[] {
+            31,
+            0,
+            0,
+            0});
             // 
-            // numericUpDown4
+            // nupStrConMoyenVittesse
             // 
-            this.numericUpDown4.Location = new System.Drawing.Point(88, 43);
-            this.numericUpDown4.Name = "numericUpDown4";
-            this.numericUpDown4.Size = new System.Drawing.Size(67, 20);
-            this.numericUpDown4.TabIndex = 3;
+            this.nupStrConMoyenVittesse.Location = new System.Drawing.Point(88, 43);
+            this.nupStrConMoyenVittesse.Name = "nupStrConMoyenVittesse";
+            this.nupStrConMoyenVittesse.Size = new System.Drawing.Size(67, 20);
+            this.nupStrConMoyenVittesse.TabIndex = 3;
+            this.nupStrConMoyenVittesse.Value = new decimal(new int[] {
+            21,
+            0,
+            0,
+            0});
             // 
-            // numericUpDown3
+            // nupStrConPetitVittesse
             // 
-            this.numericUpDown3.Location = new System.Drawing.Point(88, 24);
-            this.numericUpDown3.Name = "numericUpDown3";
-            this.numericUpDown3.Size = new System.Drawing.Size(67, 20);
-            this.numericUpDown3.TabIndex = 2;
+            this.nupStrConPetitVittesse.Location = new System.Drawing.Point(88, 24);
+            this.nupStrConPetitVittesse.Name = "nupStrConPetitVittesse";
+            this.nupStrConPetitVittesse.Size = new System.Drawing.Size(67, 20);
+            this.nupStrConPetitVittesse.TabIndex = 2;
+            this.nupStrConPetitVittesse.Value = new decimal(new int[] {
+            11,
+            0,
+            0,
+            0});
             // 
             // label20
             // 
@@ -874,228 +944,288 @@ namespace appRoboBlutousse
             // 
             // pjStrConDeplacement
             // 
-            this.pjStrConDeplacement.Controls.Add(this.numericUpDown26);
-            this.pjStrConDeplacement.Controls.Add(this.label45);
-            this.pjStrConDeplacement.Controls.Add(this.label46);
-            this.pjStrConDeplacement.Controls.Add(this.numericUpDown27);
-            this.pjStrConDeplacement.Controls.Add(this.numericUpDown25);
-            this.pjStrConDeplacement.Controls.Add(this.label44);
-            this.pjStrConDeplacement.Controls.Add(this.comboBox2);
-            this.pjStrConDeplacement.Controls.Add(this.numericUpDown24);
-            this.pjStrConDeplacement.Controls.Add(this.numericUpDown23);
-            this.pjStrConDeplacement.Controls.Add(this.label43);
-            this.pjStrConDeplacement.Controls.Add(this.label42);
-            this.pjStrConDeplacement.Controls.Add(this.label40);
-            this.pjStrConDeplacement.Controls.Add(this.label41);
-            this.pjStrConDeplacement.Controls.Add(this.numericUpDown21);
-            this.pjStrConDeplacement.Controls.Add(this.numericUpDown22);
-            this.pjStrConDeplacement.Controls.Add(this.checkBox23);
-            this.pjStrConDeplacement.Controls.Add(this.checkBox22);
-            this.pjStrConDeplacement.Controls.Add(this.numericUpDown20);
-            this.pjStrConDeplacement.Controls.Add(this.numericUpDown19);
+            this.pjStrConDeplacement.Controls.Add(this.nupStrDepCobY);
+            this.pjStrConDeplacement.Controls.Add(this.labStrDepCobY);
+            this.pjStrConDeplacement.Controls.Add(this.labStrDepCobX);
+            this.pjStrConDeplacement.Controls.Add(this.nupStrDepCobX);
+            this.pjStrConDeplacement.Controls.Add(this.nupStrDepCobNBPoint);
+            this.pjStrConDeplacement.Controls.Add(this.labStrDepCobNBPoint);
+            this.pjStrConDeplacement.Controls.Add(this.cbStrDepCobChoixDuPoint);
+            this.pjStrConDeplacement.Controls.Add(this.nupStrDepRecArcAngle);
+            this.pjStrConDeplacement.Controls.Add(this.nupStrDepRecArcRayon);
+            this.pjStrConDeplacement.Controls.Add(this.labStrDepRecArcRayon);
+            this.pjStrConDeplacement.Controls.Add(this.labStrDepRecArcAngle);
+            this.pjStrConDeplacement.Controls.Add(this.labStrDepRecArcY);
+            this.pjStrConDeplacement.Controls.Add(this.labStrDepRecArcX);
+            this.pjStrConDeplacement.Controls.Add(this.nupStrDepRecArcY);
+            this.pjStrConDeplacement.Controls.Add(this.nupStrDepRecArcX);
+            this.pjStrConDeplacement.Controls.Add(this.chbStrDepAngle);
+            this.pjStrConDeplacement.Controls.Add(this.chbStrDepLigne);
+            this.pjStrConDeplacement.Controls.Add(this.nupStrDepAngle);
+            this.pjStrConDeplacement.Controls.Add(this.nupStrDepLigne);
             this.pjStrConDeplacement.Controls.Add(this.chbStrDepArcdecercle);
-            this.pjStrConDeplacement.Controls.Add(this.label36);
-            this.pjStrConDeplacement.Controls.Add(this.numericUpDown18);
-            this.pjStrConDeplacement.Controls.Add(this.label35);
-            this.pjStrConDeplacement.Controls.Add(this.checkBox17);
-            this.pjStrConDeplacement.Controls.Add(this.checkBox16);
-            this.pjStrConDeplacement.Controls.Add(this.label34);
-            this.pjStrConDeplacement.Controls.Add(this.checkBox15);
-            this.pjStrConDeplacement.Controls.Add(this.checkBox14);
-            this.pjStrConDeplacement.Controls.Add(this.numericUpDown17);
-            this.pjStrConDeplacement.Controls.Add(this.label33);
-            this.pjStrConDeplacement.Controls.Add(this.numericUpDown16);
-            this.pjStrConDeplacement.Controls.Add(this.numericUpDown15);
-            this.pjStrConDeplacement.Controls.Add(this.checkBox13);
-            this.pjStrConDeplacement.Controls.Add(this.checkBox12);
-            this.pjStrConDeplacement.Controls.Add(this.checkBox11);
-            this.pjStrConDeplacement.Controls.Add(this.checkBox8);
-            this.pjStrConDeplacement.Controls.Add(this.checkBox7);
-            this.pjStrConDeplacement.Controls.Add(this.checkBox6);
-            this.pjStrConDeplacement.Controls.Add(this.numericUpDown12);
-            this.pjStrConDeplacement.Controls.Add(this.checkBox5);
-            this.pjStrConDeplacement.Controls.Add(this.label31);
-            this.pjStrConDeplacement.Controls.Add(this.label30);
-            this.pjStrConDeplacement.Controls.Add(this.numericUpDown11);
+            this.pjStrConDeplacement.Controls.Add(this.labStrDepRecType);
+            this.pjStrConDeplacement.Controls.Add(this.nupStrDepRecNouvellePosition);
+            this.pjStrConDeplacement.Controls.Add(this.labStrDepReqNouvellePosition);
+            this.pjStrConDeplacement.Controls.Add(this.chbStrDepRecAxeY);
+            this.pjStrConDeplacement.Controls.Add(this.chbStrDepRecAxeX);
+            this.pjStrConDeplacement.Controls.Add(this.labStrDepRecAxe);
+            this.pjStrConDeplacement.Controls.Add(this.chbStrDepRecTypeArrier);
+            this.pjStrConDeplacement.Controls.Add(this.chbStrDepRecTypeAvan);
+            this.pjStrConDeplacement.Controls.Add(this.nupStrDepRecDistanceMur);
+            this.pjStrConDeplacement.Controls.Add(this.labStrDepRecDistMur);
+            this.pjStrConDeplacement.Controls.Add(this.chbStrDepPV);
+            this.pjStrConDeplacement.Controls.Add(this.chbStrDepGV);
+            this.pjStrConDeplacement.Controls.Add(this.chbStrDepMV);
+            this.pjStrConDeplacement.Controls.Add(this.nupStrDepDepA);
+            this.pjStrConDeplacement.Controls.Add(this.chbStrDepDeplacementA);
+            this.pjStrConDeplacement.Controls.Add(this.labStrDepDepY);
+            this.pjStrConDeplacement.Controls.Add(this.labStrDepDepX);
+            this.pjStrConDeplacement.Controls.Add(this.nupStrDepDepY);
             this.pjStrConDeplacement.Controls.Add(this.chbStrDepCourbedebesier);
             this.pjStrConDeplacement.Controls.Add(this.chbStrDepRecalage);
             this.pjStrConDeplacement.Controls.Add(this.chbStrDepDeplacement);
             this.pjStrConDeplacement.Controls.Add(this.chbStrDepDeplacementXY);
-            this.pjStrConDeplacement.Controls.Add(this.numericUpDown10);
+            this.pjStrConDeplacement.Controls.Add(this.nupStrDepDepX);
             this.pjStrConDeplacement.Controls.Add(this.spcStrDepPrepaVisu);
             this.pjStrConDeplacement.Controls.Add(this.label25);
             this.pjStrConDeplacement.Location = new System.Drawing.Point(4, 22);
             this.pjStrConDeplacement.Margin = new System.Windows.Forms.Padding(0);
             this.pjStrConDeplacement.Name = "pjStrConDeplacement";
             this.pjStrConDeplacement.Padding = new System.Windows.Forms.Padding(3);
-            this.pjStrConDeplacement.Size = new System.Drawing.Size(1166, 102);
+            this.pjStrConDeplacement.Size = new System.Drawing.Size(1256, 102);
             this.pjStrConDeplacement.TabIndex = 1;
             this.pjStrConDeplacement.Text = "Deplacement";
             this.pjStrConDeplacement.UseVisualStyleBackColor = true;
             // 
-            // numericUpDown26
+            // nupStrDepCobY
             // 
-            this.numericUpDown26.Location = new System.Drawing.Point(670, 76);
-            this.numericUpDown26.Name = "numericUpDown26";
-            this.numericUpDown26.Size = new System.Drawing.Size(53, 20);
-            this.numericUpDown26.TabIndex = 50;
+            this.nupStrDepCobY.Enabled = false;
+            this.nupStrDepCobY.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.nupStrDepCobY.Location = new System.Drawing.Point(670, 74);
+            this.nupStrDepCobY.Name = "nupStrDepCobY";
+            this.nupStrDepCobY.Size = new System.Drawing.Size(53, 20);
+            this.nupStrDepCobY.TabIndex = 50;
             // 
-            // label45
+            // labStrDepCobY
             // 
-            this.label45.AutoSize = true;
-            this.label45.Location = new System.Drawing.Point(645, 80);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(26, 13);
-            this.label45.TabIndex = 52;
-            this.label45.Text = "Y = ";
+            this.labStrDepCobY.AutoSize = true;
+            this.labStrDepCobY.Enabled = false;
+            this.labStrDepCobY.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.labStrDepCobY.Location = new System.Drawing.Point(645, 78);
+            this.labStrDepCobY.Name = "labStrDepCobY";
+            this.labStrDepCobY.Size = new System.Drawing.Size(26, 13);
+            this.labStrDepCobY.TabIndex = 52;
+            this.labStrDepCobY.Text = "Y = ";
             // 
-            // label46
+            // labStrDepCobX
             // 
-            this.label46.AutoSize = true;
-            this.label46.Location = new System.Drawing.Point(563, 78);
-            this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(26, 13);
-            this.label46.TabIndex = 51;
-            this.label46.Text = "X = ";
+            this.labStrDepCobX.AutoSize = true;
+            this.labStrDepCobX.Enabled = false;
+            this.labStrDepCobX.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.labStrDepCobX.Location = new System.Drawing.Point(563, 78);
+            this.labStrDepCobX.Name = "labStrDepCobX";
+            this.labStrDepCobX.Size = new System.Drawing.Size(26, 13);
+            this.labStrDepCobX.TabIndex = 51;
+            this.labStrDepCobX.Text = "X = ";
             // 
-            // numericUpDown27
+            // nupStrDepCobX
             // 
-            this.numericUpDown27.Location = new System.Drawing.Point(589, 75);
-            this.numericUpDown27.Name = "numericUpDown27";
-            this.numericUpDown27.Size = new System.Drawing.Size(53, 20);
-            this.numericUpDown27.TabIndex = 49;
+            this.nupStrDepCobX.Enabled = false;
+            this.nupStrDepCobX.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.nupStrDepCobX.Location = new System.Drawing.Point(589, 74);
+            this.nupStrDepCobX.Name = "nupStrDepCobX";
+            this.nupStrDepCobX.Size = new System.Drawing.Size(53, 20);
+            this.nupStrDepCobX.TabIndex = 49;
             // 
-            // numericUpDown25
+            // nupStrDepCobNBPoint
             // 
-            this.numericUpDown25.Location = new System.Drawing.Point(652, 20);
-            this.numericUpDown25.Minimum = new decimal(new int[] {
+            this.nupStrDepCobNBPoint.Enabled = false;
+            this.nupStrDepCobNBPoint.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.nupStrDepCobNBPoint.Location = new System.Drawing.Point(652, 20);
+            this.nupStrDepCobNBPoint.Minimum = new decimal(new int[] {
             4,
             0,
             0,
             0});
-            this.numericUpDown25.Name = "numericUpDown25";
-            this.numericUpDown25.Size = new System.Drawing.Size(53, 20);
-            this.numericUpDown25.TabIndex = 47;
-            this.numericUpDown25.Value = new decimal(new int[] {
+            this.nupStrDepCobNBPoint.Name = "nupStrDepCobNBPoint";
+            this.nupStrDepCobNBPoint.Size = new System.Drawing.Size(53, 20);
+            this.nupStrDepCobNBPoint.TabIndex = 47;
+            this.nupStrDepCobNBPoint.Value = new decimal(new int[] {
             4,
             0,
             0,
             0});
             // 
-            // label44
+            // labStrDepCobNBPoint
             // 
-            this.label44.AutoSize = true;
-            this.label44.Location = new System.Drawing.Point(558, 24);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(95, 13);
-            this.label44.TabIndex = 48;
-            this.label44.Text = "nombre de point = ";
+            this.labStrDepCobNBPoint.AutoSize = true;
+            this.labStrDepCobNBPoint.Enabled = false;
+            this.labStrDepCobNBPoint.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.labStrDepCobNBPoint.Location = new System.Drawing.Point(558, 24);
+            this.labStrDepCobNBPoint.Name = "labStrDepCobNBPoint";
+            this.labStrDepCobNBPoint.Size = new System.Drawing.Size(95, 13);
+            this.labStrDepCobNBPoint.TabIndex = 48;
+            this.labStrDepCobNBPoint.Text = "nombre de point = ";
             // 
-            // comboBox2
+            // cbStrDepCobChoixDuPoint
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(561, 46);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(162, 21);
-            this.comboBox2.TabIndex = 46;
+            this.cbStrDepCobChoixDuPoint.Enabled = false;
+            this.cbStrDepCobChoixDuPoint.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.cbStrDepCobChoixDuPoint.FormattingEnabled = true;
+            this.cbStrDepCobChoixDuPoint.Location = new System.Drawing.Point(561, 46);
+            this.cbStrDepCobChoixDuPoint.Name = "cbStrDepCobChoixDuPoint";
+            this.cbStrDepCobChoixDuPoint.Size = new System.Drawing.Size(162, 21);
+            this.cbStrDepCobChoixDuPoint.TabIndex = 46;
             // 
-            // numericUpDown24
+            // nupStrDepRecArcAngle
             // 
-            this.numericUpDown24.Location = new System.Drawing.Point(484, 82);
-            this.numericUpDown24.Name = "numericUpDown24";
-            this.numericUpDown24.Size = new System.Drawing.Size(53, 20);
-            this.numericUpDown24.TabIndex = 45;
+            this.nupStrDepRecArcAngle.Enabled = false;
+            this.nupStrDepRecArcAngle.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.nupStrDepRecArcAngle.Location = new System.Drawing.Point(484, 82);
+            this.nupStrDepRecArcAngle.Name = "nupStrDepRecArcAngle";
+            this.nupStrDepRecArcAngle.Size = new System.Drawing.Size(53, 20);
+            this.nupStrDepRecArcAngle.TabIndex = 45;
             // 
-            // numericUpDown23
+            // nupStrDepRecArcRayon
             // 
-            this.numericUpDown23.Location = new System.Drawing.Point(484, 62);
-            this.numericUpDown23.Name = "numericUpDown23";
-            this.numericUpDown23.Size = new System.Drawing.Size(53, 20);
-            this.numericUpDown23.TabIndex = 44;
+            this.nupStrDepRecArcRayon.Enabled = false;
+            this.nupStrDepRecArcRayon.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.nupStrDepRecArcRayon.Location = new System.Drawing.Point(484, 62);
+            this.nupStrDepRecArcRayon.Name = "nupStrDepRecArcRayon";
+            this.nupStrDepRecArcRayon.Size = new System.Drawing.Size(53, 20);
+            this.nupStrDepRecArcRayon.TabIndex = 44;
             // 
-            // label43
+            // labStrDepRecArcRayon
             // 
-            this.label43.AutoSize = true;
-            this.label43.Location = new System.Drawing.Point(428, 66);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(50, 13);
-            this.label43.TabIndex = 43;
-            this.label43.Text = "Rayon = ";
+            this.labStrDepRecArcRayon.AutoSize = true;
+            this.labStrDepRecArcRayon.Enabled = false;
+            this.labStrDepRecArcRayon.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.labStrDepRecArcRayon.Location = new System.Drawing.Point(428, 66);
+            this.labStrDepRecArcRayon.Name = "labStrDepRecArcRayon";
+            this.labStrDepRecArcRayon.Size = new System.Drawing.Size(50, 13);
+            this.labStrDepRecArcRayon.TabIndex = 43;
+            this.labStrDepRecArcRayon.Text = "Rayon = ";
             // 
-            // label42
+            // labStrDepRecArcAngle
             // 
-            this.label42.AutoSize = true;
-            this.label42.Location = new System.Drawing.Point(432, 86);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(46, 13);
-            this.label42.TabIndex = 42;
-            this.label42.Text = "Angle = ";
+            this.labStrDepRecArcAngle.AutoSize = true;
+            this.labStrDepRecArcAngle.Enabled = false;
+            this.labStrDepRecArcAngle.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.labStrDepRecArcAngle.Location = new System.Drawing.Point(432, 86);
+            this.labStrDepRecArcAngle.Name = "labStrDepRecArcAngle";
+            this.labStrDepRecArcAngle.Size = new System.Drawing.Size(46, 13);
+            this.labStrDepRecArcAngle.TabIndex = 42;
+            this.labStrDepRecArcAngle.Text = "Angle = ";
             // 
-            // label40
+            // labStrDepRecArcY
             // 
-            this.label40.AutoSize = true;
-            this.label40.Location = new System.Drawing.Point(452, 46);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(26, 13);
-            this.label40.TabIndex = 41;
-            this.label40.Text = "Y = ";
+            this.labStrDepRecArcY.AutoSize = true;
+            this.labStrDepRecArcY.Enabled = false;
+            this.labStrDepRecArcY.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.labStrDepRecArcY.Location = new System.Drawing.Point(452, 46);
+            this.labStrDepRecArcY.Name = "labStrDepRecArcY";
+            this.labStrDepRecArcY.Size = new System.Drawing.Size(26, 13);
+            this.labStrDepRecArcY.TabIndex = 41;
+            this.labStrDepRecArcY.Text = "Y = ";
             // 
-            // label41
+            // labStrDepRecArcX
             // 
-            this.label41.AutoSize = true;
-            this.label41.Location = new System.Drawing.Point(452, 26);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(26, 13);
-            this.label41.TabIndex = 40;
-            this.label41.Text = "X = ";
+            this.labStrDepRecArcX.AutoSize = true;
+            this.labStrDepRecArcX.Enabled = false;
+            this.labStrDepRecArcX.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.labStrDepRecArcX.Location = new System.Drawing.Point(452, 26);
+            this.labStrDepRecArcX.Name = "labStrDepRecArcX";
+            this.labStrDepRecArcX.Size = new System.Drawing.Size(26, 13);
+            this.labStrDepRecArcX.TabIndex = 40;
+            this.labStrDepRecArcX.Text = "X = ";
             // 
-            // numericUpDown21
+            // nupStrDepRecArcY
             // 
-            this.numericUpDown21.Location = new System.Drawing.Point(484, 42);
-            this.numericUpDown21.Name = "numericUpDown21";
-            this.numericUpDown21.Size = new System.Drawing.Size(53, 20);
-            this.numericUpDown21.TabIndex = 39;
+            this.nupStrDepRecArcY.Enabled = false;
+            this.nupStrDepRecArcY.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.nupStrDepRecArcY.Location = new System.Drawing.Point(484, 42);
+            this.nupStrDepRecArcY.Name = "nupStrDepRecArcY";
+            this.nupStrDepRecArcY.Size = new System.Drawing.Size(53, 20);
+            this.nupStrDepRecArcY.TabIndex = 39;
             // 
-            // numericUpDown22
+            // nupStrDepRecArcX
             // 
-            this.numericUpDown22.Location = new System.Drawing.Point(484, 22);
-            this.numericUpDown22.Name = "numericUpDown22";
-            this.numericUpDown22.Size = new System.Drawing.Size(53, 20);
-            this.numericUpDown22.TabIndex = 38;
+            this.nupStrDepRecArcX.Enabled = false;
+            this.nupStrDepRecArcX.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.nupStrDepRecArcX.Location = new System.Drawing.Point(484, 22);
+            this.nupStrDepRecArcX.Name = "nupStrDepRecArcX";
+            this.nupStrDepRecArcX.Size = new System.Drawing.Size(53, 20);
+            this.nupStrDepRecArcX.TabIndex = 38;
             // 
-            // checkBox23
+            // chbStrDepAngle
             // 
-            this.checkBox23.AutoSize = true;
-            this.checkBox23.Location = new System.Drawing.Point(13, 54);
-            this.checkBox23.Name = "checkBox23";
-            this.checkBox23.Size = new System.Drawing.Size(53, 17);
-            this.checkBox23.TabIndex = 37;
-            this.checkBox23.Text = "Angle";
-            this.checkBox23.UseVisualStyleBackColor = true;
+            this.chbStrDepAngle.AutoSize = true;
+            this.chbStrDepAngle.Enabled = false;
+            this.chbStrDepAngle.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.chbStrDepAngle.Location = new System.Drawing.Point(13, 54);
+            this.chbStrDepAngle.Name = "chbStrDepAngle";
+            this.chbStrDepAngle.Size = new System.Drawing.Size(53, 17);
+            this.chbStrDepAngle.TabIndex = 37;
+            this.chbStrDepAngle.Text = "Angle";
+            this.chbStrDepAngle.UseVisualStyleBackColor = true;
+            this.chbStrDepAngle.MouseClick += new System.Windows.Forms.MouseEventHandler(this.chbStrDepAngle_MouseClick);
             // 
-            // checkBox22
+            // chbStrDepLigne
             // 
-            this.checkBox22.AutoSize = true;
-            this.checkBox22.Location = new System.Drawing.Point(13, 29);
-            this.checkBox22.Name = "checkBox22";
-            this.checkBox22.Size = new System.Drawing.Size(48, 17);
-            this.checkBox22.TabIndex = 36;
-            this.checkBox22.Text = "ligne";
-            this.checkBox22.UseVisualStyleBackColor = true;
+            this.chbStrDepLigne.AutoSize = true;
+            this.chbStrDepLigne.Enabled = false;
+            this.chbStrDepLigne.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.chbStrDepLigne.Location = new System.Drawing.Point(13, 29);
+            this.chbStrDepLigne.Name = "chbStrDepLigne";
+            this.chbStrDepLigne.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.chbStrDepLigne.Size = new System.Drawing.Size(48, 17);
+            this.chbStrDepLigne.TabIndex = 36;
+            this.chbStrDepLigne.Text = "ligne";
+            this.chbStrDepLigne.UseVisualStyleBackColor = true;
+            this.chbStrDepLigne.MouseClick += new System.Windows.Forms.MouseEventHandler(this.chbStrDepLigne_MouseClick);
             // 
-            // numericUpDown20
+            // nupStrDepAngle
             // 
-            this.numericUpDown20.Location = new System.Drawing.Point(66, 53);
-            this.numericUpDown20.Name = "numericUpDown20";
-            this.numericUpDown20.Size = new System.Drawing.Size(53, 20);
-            this.numericUpDown20.TabIndex = 35;
+            this.nupStrDepAngle.Enabled = false;
+            this.nupStrDepAngle.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.nupStrDepAngle.Location = new System.Drawing.Point(66, 53);
+            this.nupStrDepAngle.Maximum = new decimal(new int[] {
+            360,
+            0,
+            0,
+            0});
+            this.nupStrDepAngle.Minimum = new decimal(new int[] {
+            360,
+            0,
+            0,
+            -2147483648});
+            this.nupStrDepAngle.Name = "nupStrDepAngle";
+            this.nupStrDepAngle.Size = new System.Drawing.Size(53, 20);
+            this.nupStrDepAngle.TabIndex = 35;
+            this.nupStrDepAngle.ValueChanged += new System.EventHandler(this.nupStrDepAngle_ValueChanged);
+            this.nupStrDepAngle.MouseCaptureChanged += new System.EventHandler(this.nupStrDepAngle_MouseCaptureChanged);
             // 
-            // numericUpDown19
+            // nupStrDepLigne
             // 
-            this.numericUpDown19.Location = new System.Drawing.Point(66, 27);
-            this.numericUpDown19.Name = "numericUpDown19";
-            this.numericUpDown19.Size = new System.Drawing.Size(53, 20);
-            this.numericUpDown19.TabIndex = 33;
+            this.nupStrDepLigne.Enabled = false;
+            this.nupStrDepLigne.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.nupStrDepLigne.Location = new System.Drawing.Point(66, 27);
+            this.nupStrDepLigne.Maximum = new decimal(new int[] {
+            5000,
+            0,
+            0,
+            0});
+            this.nupStrDepLigne.Minimum = new decimal(new int[] {
+            5000,
+            0,
+            0,
+            -2147483648});
+            this.nupStrDepLigne.Name = "nupStrDepLigne";
+            this.nupStrDepLigne.Size = new System.Drawing.Size(53, 20);
+            this.nupStrDepLigne.TabIndex = 33;
+            this.nupStrDepLigne.ValueChanged += new System.EventHandler(this.nupStrDepLigne_ValueChanged);
+            this.nupStrDepLigne.MouseCaptureChanged += new System.EventHandler(this.nupStrDepLigne_MouseCaptureChanged);
             // 
             // chbStrDepArcdecercle
             // 
@@ -1108,221 +1238,215 @@ namespace appRoboBlutousse
             this.chbStrDepArcdecercle.UseVisualStyleBackColor = true;
             this.chbStrDepArcdecercle.MouseClick += new System.Windows.Forms.MouseEventHandler(this.chbStrDepArcdecercle_MouseClick);
             // 
-            // label36
+            // labStrDepRecType
             // 
-            this.label36.AutoSize = true;
-            this.label36.Location = new System.Drawing.Point(260, 76);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(31, 13);
-            this.label36.TabIndex = 30;
-            this.label36.Text = "Type";
+            this.labStrDepRecType.AutoSize = true;
+            this.labStrDepRecType.Enabled = false;
+            this.labStrDepRecType.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.labStrDepRecType.Location = new System.Drawing.Point(260, 76);
+            this.labStrDepRecType.Name = "labStrDepRecType";
+            this.labStrDepRecType.Size = new System.Drawing.Size(31, 13);
+            this.labStrDepRecType.TabIndex = 30;
+            this.labStrDepRecType.Text = "Type";
             // 
-            // numericUpDown18
+            // nupStrDepRecNouvellePosition
             // 
-            this.numericUpDown18.Location = new System.Drawing.Point(355, 36);
-            this.numericUpDown18.Name = "numericUpDown18";
-            this.numericUpDown18.Size = new System.Drawing.Size(53, 20);
-            this.numericUpDown18.TabIndex = 29;
+            this.nupStrDepRecNouvellePosition.Enabled = false;
+            this.nupStrDepRecNouvellePosition.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.nupStrDepRecNouvellePosition.Location = new System.Drawing.Point(355, 36);
+            this.nupStrDepRecNouvellePosition.Name = "nupStrDepRecNouvellePosition";
+            this.nupStrDepRecNouvellePosition.Size = new System.Drawing.Size(53, 20);
+            this.nupStrDepRecNouvellePosition.TabIndex = 29;
             // 
-            // label35
+            // labStrDepReqNouvellePosition
             // 
-            this.label35.AutoSize = true;
-            this.label35.Location = new System.Drawing.Point(255, 38);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(100, 13);
-            this.label35.TabIndex = 28;
-            this.label35.Text = "Nouvelle position = ";
+            this.labStrDepReqNouvellePosition.AutoSize = true;
+            this.labStrDepReqNouvellePosition.Enabled = false;
+            this.labStrDepReqNouvellePosition.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.labStrDepReqNouvellePosition.Location = new System.Drawing.Point(255, 38);
+            this.labStrDepReqNouvellePosition.Name = "labStrDepReqNouvellePosition";
+            this.labStrDepReqNouvellePosition.Size = new System.Drawing.Size(100, 13);
+            this.labStrDepReqNouvellePosition.TabIndex = 28;
+            this.labStrDepReqNouvellePosition.Text = "Nouvelle position = ";
             // 
-            // checkBox17
+            // chbStrDepRecAxeY
             // 
-            this.checkBox17.AutoSize = true;
-            this.checkBox17.Location = new System.Drawing.Point(346, 56);
-            this.checkBox17.Name = "checkBox17";
-            this.checkBox17.Size = new System.Drawing.Size(33, 17);
-            this.checkBox17.TabIndex = 27;
-            this.checkBox17.Text = "Y";
-            this.checkBox17.UseVisualStyleBackColor = true;
+            this.chbStrDepRecAxeY.AutoSize = true;
+            this.chbStrDepRecAxeY.Enabled = false;
+            this.chbStrDepRecAxeY.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.chbStrDepRecAxeY.Location = new System.Drawing.Point(346, 56);
+            this.chbStrDepRecAxeY.Name = "chbStrDepRecAxeY";
+            this.chbStrDepRecAxeY.Size = new System.Drawing.Size(33, 17);
+            this.chbStrDepRecAxeY.TabIndex = 27;
+            this.chbStrDepRecAxeY.Text = "Y";
+            this.chbStrDepRecAxeY.UseVisualStyleBackColor = true;
+            this.chbStrDepRecAxeY.MouseClick += new System.Windows.Forms.MouseEventHandler(this.chbStrDepRecAxeY_MouseClick);
             // 
-            // checkBox16
+            // chbStrDepRecAxeX
             // 
-            this.checkBox16.AutoSize = true;
-            this.checkBox16.Location = new System.Drawing.Point(296, 56);
-            this.checkBox16.Name = "checkBox16";
-            this.checkBox16.Size = new System.Drawing.Size(33, 17);
-            this.checkBox16.TabIndex = 26;
-            this.checkBox16.Text = "X";
-            this.checkBox16.UseVisualStyleBackColor = true;
+            this.chbStrDepRecAxeX.AutoSize = true;
+            this.chbStrDepRecAxeX.Enabled = false;
+            this.chbStrDepRecAxeX.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.chbStrDepRecAxeX.Location = new System.Drawing.Point(296, 56);
+            this.chbStrDepRecAxeX.Name = "chbStrDepRecAxeX";
+            this.chbStrDepRecAxeX.Size = new System.Drawing.Size(33, 17);
+            this.chbStrDepRecAxeX.TabIndex = 26;
+            this.chbStrDepRecAxeX.Text = "X";
+            this.chbStrDepRecAxeX.UseVisualStyleBackColor = true;
+            this.chbStrDepRecAxeX.MouseClick += new System.Windows.Forms.MouseEventHandler(this.chbStrDepRecAxeX_MouseClick);
             // 
-            // label34
+            // labStrDepRecAxe
             // 
-            this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(266, 58);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(25, 13);
-            this.label34.TabIndex = 25;
-            this.label34.Text = "Axe";
+            this.labStrDepRecAxe.AutoSize = true;
+            this.labStrDepRecAxe.Enabled = false;
+            this.labStrDepRecAxe.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.labStrDepRecAxe.Location = new System.Drawing.Point(266, 58);
+            this.labStrDepRecAxe.Name = "labStrDepRecAxe";
+            this.labStrDepRecAxe.Size = new System.Drawing.Size(25, 13);
+            this.labStrDepRecAxe.TabIndex = 25;
+            this.labStrDepRecAxe.Text = "Axe";
             // 
-            // checkBox15
+            // chbStrDepRecTypeArrier
             // 
-            this.checkBox15.AutoSize = true;
-            this.checkBox15.Location = new System.Drawing.Point(296, 74);
-            this.checkBox15.Name = "checkBox15";
-            this.checkBox15.Size = new System.Drawing.Size(50, 17);
-            this.checkBox15.TabIndex = 24;
-            this.checkBox15.Text = "Arrier";
-            this.checkBox15.UseVisualStyleBackColor = true;
+            this.chbStrDepRecTypeArrier.AutoSize = true;
+            this.chbStrDepRecTypeArrier.Enabled = false;
+            this.chbStrDepRecTypeArrier.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.chbStrDepRecTypeArrier.Location = new System.Drawing.Point(296, 74);
+            this.chbStrDepRecTypeArrier.Name = "chbStrDepRecTypeArrier";
+            this.chbStrDepRecTypeArrier.Size = new System.Drawing.Size(50, 17);
+            this.chbStrDepRecTypeArrier.TabIndex = 24;
+            this.chbStrDepRecTypeArrier.Text = "Arrier";
+            this.chbStrDepRecTypeArrier.UseVisualStyleBackColor = true;
+            this.chbStrDepRecTypeArrier.MouseClick += new System.Windows.Forms.MouseEventHandler(this.chbStrDepRecTypeArrier_MouseClick);
             // 
-            // checkBox14
+            // chbStrDepRecTypeAvan
             // 
-            this.checkBox14.AutoSize = true;
-            this.checkBox14.Location = new System.Drawing.Point(346, 74);
-            this.checkBox14.Name = "checkBox14";
-            this.checkBox14.Size = new System.Drawing.Size(54, 17);
-            this.checkBox14.TabIndex = 23;
-            this.checkBox14.Text = "Avant";
-            this.checkBox14.UseVisualStyleBackColor = true;
+            this.chbStrDepRecTypeAvan.AutoSize = true;
+            this.chbStrDepRecTypeAvan.Enabled = false;
+            this.chbStrDepRecTypeAvan.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.chbStrDepRecTypeAvan.Location = new System.Drawing.Point(346, 74);
+            this.chbStrDepRecTypeAvan.Name = "chbStrDepRecTypeAvan";
+            this.chbStrDepRecTypeAvan.Size = new System.Drawing.Size(54, 17);
+            this.chbStrDepRecTypeAvan.TabIndex = 23;
+            this.chbStrDepRecTypeAvan.Text = "Avant";
+            this.chbStrDepRecTypeAvan.UseVisualStyleBackColor = true;
+            this.chbStrDepRecTypeAvan.MouseClick += new System.Windows.Forms.MouseEventHandler(this.chbStrDepRecTypeAvan_MouseClick);
             // 
-            // numericUpDown17
+            // nupStrDepRecDistanceMur
             // 
-            this.numericUpDown17.Location = new System.Drawing.Point(355, 20);
-            this.numericUpDown17.Name = "numericUpDown17";
-            this.numericUpDown17.Size = new System.Drawing.Size(53, 20);
-            this.numericUpDown17.TabIndex = 21;
+            this.nupStrDepRecDistanceMur.Enabled = false;
+            this.nupStrDepRecDistanceMur.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.nupStrDepRecDistanceMur.Location = new System.Drawing.Point(355, 20);
+            this.nupStrDepRecDistanceMur.Name = "nupStrDepRecDistanceMur";
+            this.nupStrDepRecDistanceMur.Size = new System.Drawing.Size(53, 20);
+            this.nupStrDepRecDistanceMur.TabIndex = 21;
             // 
-            // label33
+            // labStrDepRecDistMur
             // 
-            this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(274, 23);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(81, 13);
-            this.label33.TabIndex = 20;
-            this.label33.Text = "Distance mur = ";
+            this.labStrDepRecDistMur.AutoSize = true;
+            this.labStrDepRecDistMur.Enabled = false;
+            this.labStrDepRecDistMur.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.labStrDepRecDistMur.Location = new System.Drawing.Point(274, 23);
+            this.labStrDepRecDistMur.Name = "labStrDepRecDistMur";
+            this.labStrDepRecDistMur.Size = new System.Drawing.Size(81, 13);
+            this.labStrDepRecDistMur.TabIndex = 20;
+            this.labStrDepRecDistMur.Text = "Distance mur = ";
             // 
-            // numericUpDown16
+            // chbStrDepPV
             // 
-            this.numericUpDown16.Location = new System.Drawing.Point(744, 78);
-            this.numericUpDown16.Name = "numericUpDown16";
-            this.numericUpDown16.Size = new System.Drawing.Size(91, 20);
-            this.numericUpDown16.TabIndex = 19;
+            this.chbStrDepPV.AutoSize = true;
+            this.chbStrDepPV.Location = new System.Drawing.Point(748, 17);
+            this.chbStrDepPV.Name = "chbStrDepPV";
+            this.chbStrDepPV.Size = new System.Drawing.Size(87, 17);
+            this.chbStrDepPV.TabIndex = 17;
+            this.chbStrDepPV.Text = "Petit Vittesse";
+            this.chbStrDepPV.UseVisualStyleBackColor = true;
+            this.chbStrDepPV.MouseClick += new System.Windows.Forms.MouseEventHandler(this.chbStrDepPV_MouseClick);
             // 
-            // numericUpDown15
+            // chbStrDepGV
             // 
-            this.numericUpDown15.Location = new System.Drawing.Point(744, 58);
-            this.numericUpDown15.Name = "numericUpDown15";
-            this.numericUpDown15.Size = new System.Drawing.Size(91, 20);
-            this.numericUpDown15.TabIndex = 18;
+            this.chbStrDepGV.AutoSize = true;
+            this.chbStrDepGV.Location = new System.Drawing.Point(748, 51);
+            this.chbStrDepGV.Name = "chbStrDepGV";
+            this.chbStrDepGV.Size = new System.Drawing.Size(91, 17);
+            this.chbStrDepGV.TabIndex = 16;
+            this.chbStrDepGV.Text = "Grnad vitesse";
+            this.chbStrDepGV.UseVisualStyleBackColor = true;
+            this.chbStrDepGV.MouseClick += new System.Windows.Forms.MouseEventHandler(this.chbStrDepGV_MouseClick);
             // 
-            // checkBox13
+            // chbStrDepMV
             // 
-            this.checkBox13.AutoSize = true;
-            this.checkBox13.Location = new System.Drawing.Point(744, 6);
-            this.checkBox13.Name = "checkBox13";
-            this.checkBox13.Size = new System.Drawing.Size(87, 17);
-            this.checkBox13.TabIndex = 17;
-            this.checkBox13.Text = "Petit Vittesse";
-            this.checkBox13.UseVisualStyleBackColor = true;
+            this.chbStrDepMV.AutoSize = true;
+            this.chbStrDepMV.Location = new System.Drawing.Point(748, 34);
+            this.chbStrDepMV.Name = "chbStrDepMV";
+            this.chbStrDepMV.Size = new System.Drawing.Size(97, 17);
+            this.chbStrDepMV.TabIndex = 15;
+            this.chbStrDepMV.Text = "Moyen vittesse";
+            this.chbStrDepMV.UseVisualStyleBackColor = true;
+            this.chbStrDepMV.MouseClick += new System.Windows.Forms.MouseEventHandler(this.chbStrDepMV_MouseClick);
             // 
-            // checkBox12
+            // nupStrDepDepA
             // 
-            this.checkBox12.AutoSize = true;
-            this.checkBox12.Location = new System.Drawing.Point(744, 40);
-            this.checkBox12.Name = "checkBox12";
-            this.checkBox12.Size = new System.Drawing.Size(91, 17);
-            this.checkBox12.TabIndex = 16;
-            this.checkBox12.Text = "Grnad vitesse";
-            this.checkBox12.UseVisualStyleBackColor = true;
+            this.nupStrDepDepA.Enabled = false;
+            this.nupStrDepDepA.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.nupStrDepDepA.Location = new System.Drawing.Point(181, 75);
+            this.nupStrDepDepA.Name = "nupStrDepDepA";
+            this.nupStrDepDepA.Size = new System.Drawing.Size(53, 20);
+            this.nupStrDepDepA.TabIndex = 11;
             // 
-            // checkBox11
+            // chbStrDepDeplacementA
             // 
-            this.checkBox11.AutoSize = true;
-            this.checkBox11.Location = new System.Drawing.Point(744, 23);
-            this.checkBox11.Name = "checkBox11";
-            this.checkBox11.Size = new System.Drawing.Size(97, 17);
-            this.checkBox11.TabIndex = 15;
-            this.checkBox11.Text = "Moyen vittesse";
-            this.checkBox11.UseVisualStyleBackColor = true;
+            this.chbStrDepDeplacementA.AutoSize = true;
+            this.chbStrDepDeplacementA.Enabled = false;
+            this.chbStrDepDeplacementA.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.chbStrDepDeplacementA.Location = new System.Drawing.Point(135, 77);
+            this.chbStrDepDeplacementA.Name = "chbStrDepDeplacementA";
+            this.chbStrDepDeplacementA.Size = new System.Drawing.Size(45, 17);
+            this.chbStrDepDeplacementA.TabIndex = 10;
+            this.chbStrDepDeplacementA.Text = "A = ";
+            this.chbStrDepDeplacementA.UseVisualStyleBackColor = true;
             // 
-            // checkBox8
+            // labStrDepDepY
             // 
-            this.checkBox8.AutoSize = true;
-            this.checkBox8.Location = new System.Drawing.Point(845, 47);
-            this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(110, 17);
-            this.checkBox8.TabIndex = 14;
-            this.checkBox8.Text = "Corection position";
-            this.checkBox8.UseVisualStyleBackColor = true;
+            this.labStrDepDepY.AutoSize = true;
+            this.labStrDepDepY.Enabled = false;
+            this.labStrDepDepY.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.labStrDepDepY.Location = new System.Drawing.Point(154, 53);
+            this.labStrDepDepY.Name = "labStrDepDepY";
+            this.labStrDepDepY.Size = new System.Drawing.Size(26, 13);
+            this.labStrDepDepY.TabIndex = 9;
+            this.labStrDepDepY.Text = "Y = ";
             // 
-            // checkBox7
+            // labStrDepDepX
             // 
-            this.checkBox7.AutoSize = true;
-            this.checkBox7.Location = new System.Drawing.Point(845, 27);
-            this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(130, 17);
-            this.checkBox7.TabIndex = 13;
-            this.checkBox7.Text = "Corection angle debut";
-            this.checkBox7.UseVisualStyleBackColor = true;
+            this.labStrDepDepX.AutoSize = true;
+            this.labStrDepDepX.Enabled = false;
+            this.labStrDepDepX.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.labStrDepDepX.Location = new System.Drawing.Point(154, 27);
+            this.labStrDepDepX.Name = "labStrDepDepX";
+            this.labStrDepDepX.Size = new System.Drawing.Size(26, 13);
+            this.labStrDepDepX.TabIndex = 8;
+            this.labStrDepDepX.Text = "X = ";
             // 
-            // checkBox6
+            // nupStrDepDepY
             // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.Location = new System.Drawing.Point(845, 6);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(117, 17);
-            this.checkBox6.TabIndex = 12;
-            this.checkBox6.Text = "Corection angle Fin";
-            this.checkBox6.UseVisualStyleBackColor = true;
-            // 
-            // numericUpDown12
-            // 
-            this.numericUpDown12.Location = new System.Drawing.Point(181, 75);
-            this.numericUpDown12.Name = "numericUpDown12";
-            this.numericUpDown12.Size = new System.Drawing.Size(53, 20);
-            this.numericUpDown12.TabIndex = 11;
-            // 
-            // checkBox5
-            // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(135, 77);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(45, 17);
-            this.checkBox5.TabIndex = 10;
-            this.checkBox5.Text = "A = ";
-            this.checkBox5.UseVisualStyleBackColor = true;
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(154, 53);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(26, 13);
-            this.label31.TabIndex = 9;
-            this.label31.Text = "Y = ";
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(154, 27);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(26, 13);
-            this.label30.TabIndex = 8;
-            this.label30.Text = "X = ";
-            // 
-            // numericUpDown11
-            // 
-            this.numericUpDown11.Location = new System.Drawing.Point(181, 49);
-            this.numericUpDown11.Name = "numericUpDown11";
-            this.numericUpDown11.Size = new System.Drawing.Size(53, 20);
-            this.numericUpDown11.TabIndex = 7;
+            this.nupStrDepDepY.Enabled = false;
+            this.nupStrDepDepY.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.nupStrDepDepY.Location = new System.Drawing.Point(181, 49);
+            this.nupStrDepDepY.Name = "nupStrDepDepY";
+            this.nupStrDepDepY.Size = new System.Drawing.Size(53, 20);
+            this.nupStrDepDepY.TabIndex = 7;
             // 
             // chbStrDepCourbedebesier
             // 
             this.chbStrDepCourbedebesier.AutoSize = true;
-            this.chbStrDepCourbedebesier.Location = new System.Drawing.Point(561, 3);
+            this.chbStrDepCourbedebesier.Location = new System.Drawing.Point(561, 4);
             this.chbStrDepCourbedebesier.Name = "chbStrDepCourbedebesier";
             this.chbStrDepCourbedebesier.Size = new System.Drawing.Size(106, 17);
             this.chbStrDepCourbedebesier.TabIndex = 6;
             this.chbStrDepCourbedebesier.Text = "Courbe de besier";
             this.chbStrDepCourbedebesier.UseVisualStyleBackColor = true;
+            this.chbStrDepCourbedebesier.MouseClick += new System.Windows.Forms.MouseEventHandler(this.chbStrDepCourbedebesier_MouseClick);
             // 
             // chbStrDepRecalage
             // 
@@ -1357,12 +1481,14 @@ namespace appRoboBlutousse
             this.chbStrDepDeplacementXY.UseVisualStyleBackColor = true;
             this.chbStrDepDeplacementXY.MouseClick += new System.Windows.Forms.MouseEventHandler(this.chbStrDepDeplacementXY_MouseClick);
             // 
-            // numericUpDown10
+            // nupStrDepDepX
             // 
-            this.numericUpDown10.Location = new System.Drawing.Point(181, 23);
-            this.numericUpDown10.Name = "numericUpDown10";
-            this.numericUpDown10.Size = new System.Drawing.Size(53, 20);
-            this.numericUpDown10.TabIndex = 0;
+            this.nupStrDepDepX.Enabled = false;
+            this.nupStrDepDepX.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.nupStrDepDepX.Location = new System.Drawing.Point(181, 23);
+            this.nupStrDepDepX.Name = "nupStrDepDepX";
+            this.nupStrDepDepX.Size = new System.Drawing.Size(53, 20);
+            this.nupStrDepDepX.TabIndex = 0;
             // 
             // spcStrDepPrepaVisu
             // 
@@ -1371,21 +1497,151 @@ namespace appRoboBlutousse
             this.spcStrDepPrepaVisu.Location = new System.Drawing.Point(3, 3);
             this.spcStrDepPrepaVisu.Name = "spcStrDepPrepaVisu";
             // 
+            // spcStrDepPrepaVisu.Panel1
+            // 
+            this.spcStrDepPrepaVisu.Panel1.Controls.Add(this.label35);
+            this.spcStrDepPrepaVisu.Panel1.Controls.Add(this.label36);
+            this.spcStrDepPrepaVisu.Panel1.Controls.Add(this.nupStrDepArret);
+            this.spcStrDepPrepaVisu.Panel1.Controls.Add(this.nupStrDepDistance);
+            this.spcStrDepPrepaVisu.Panel1.Controls.Add(this.label31);
+            this.spcStrDepPrepaVisu.Panel1.Controls.Add(this.label30);
+            this.spcStrDepPrepaVisu.Panel1.Controls.Add(this.chbStrDepPerssonaliser);
+            this.spcStrDepPrepaVisu.Panel1.Controls.Add(this.nupStrDepAcceleration);
+            this.spcStrDepPrepaVisu.Panel1.Controls.Add(this.nupStrDepVittesse);
+            this.spcStrDepPrepaVisu.Panel1.Controls.Add(this.chbStrDepCorectionPosition);
+            this.spcStrDepPrepaVisu.Panel1.Controls.Add(this.chbStrDepCorAngleFin);
+            this.spcStrDepPrepaVisu.Panel1.Controls.Add(this.chbStrDepCorAngleDebut);
+            // 
             // spcStrDepPrepaVisu.Panel2
             // 
-            this.spcStrDepPrepaVisu.Panel2.Controls.Add(this.richTextBox2);
-            this.spcStrDepPrepaVisu.Size = new System.Drawing.Size(1160, 96);
-            this.spcStrDepPrepaVisu.SplitterDistance = 971;
+            this.spcStrDepPrepaVisu.Panel2.Controls.Add(this.rtbStrDepDebug);
+            this.spcStrDepPrepaVisu.Size = new System.Drawing.Size(1250, 96);
+            this.spcStrDepPrepaVisu.SplitterDistance = 1133;
             this.spcStrDepPrepaVisu.TabIndex = 53;
             // 
-            // richTextBox2
+            // label35
             // 
-            this.richTextBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.richTextBox2.Location = new System.Drawing.Point(0, 0);
-            this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.Size = new System.Drawing.Size(185, 96);
-            this.richTextBox2.TabIndex = 0;
-            this.richTextBox2.Text = "";
+            this.label35.AutoSize = true;
+            this.label35.Location = new System.Drawing.Point(862, 67);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(63, 13);
+            this.label35.TabIndex = 61;
+            this.label35.Text = "Arret en mm";
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Location = new System.Drawing.Point(844, 47);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(81, 13);
+            this.label36.TabIndex = 60;
+            this.label36.Text = "Distance en cm";
+            // 
+            // nupStrDepArret
+            // 
+            this.nupStrDepArret.Location = new System.Drawing.Point(931, 63);
+            this.nupStrDepArret.Name = "nupStrDepArret";
+            this.nupStrDepArret.Size = new System.Drawing.Size(65, 20);
+            this.nupStrDepArret.TabIndex = 57;
+            this.nupStrDepArret.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.nupStrDepArret_MouseDoubleClick);
+            this.nupStrDepArret.MouseCaptureChanged += new System.EventHandler(this.nupStrDepArret_MouseCaptureChanged);
+            // 
+            // nupStrDepDistance
+            // 
+            this.nupStrDepDistance.Location = new System.Drawing.Point(931, 43);
+            this.nupStrDepDistance.Name = "nupStrDepDistance";
+            this.nupStrDepDistance.Size = new System.Drawing.Size(65, 20);
+            this.nupStrDepDistance.TabIndex = 56;
+            this.nupStrDepDistance.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.nupStrDepDistance_MouseDoubleClick);
+            this.nupStrDepDistance.MouseCaptureChanged += new System.EventHandler(this.nupStrDepDistance_MouseCaptureChanged);
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label31.Location = new System.Drawing.Point(859, 7);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(66, 13);
+            this.label31.TabIndex = 55;
+            this.label31.Text = "Acceleration";
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label30.Location = new System.Drawing.Point(881, 27);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(44, 13);
+            this.label30.TabIndex = 54;
+            this.label30.Text = "Vittesse";
+            // 
+            // chbStrDepPerssonaliser
+            // 
+            this.chbStrDepPerssonaliser.AutoSize = true;
+            this.chbStrDepPerssonaliser.Location = new System.Drawing.Point(745, 64);
+            this.chbStrDepPerssonaliser.Name = "chbStrDepPerssonaliser";
+            this.chbStrDepPerssonaliser.Size = new System.Drawing.Size(88, 17);
+            this.chbStrDepPerssonaliser.TabIndex = 54;
+            this.chbStrDepPerssonaliser.Text = "Perssonaliser";
+            this.chbStrDepPerssonaliser.UseVisualStyleBackColor = true;
+            this.chbStrDepPerssonaliser.MouseClick += new System.Windows.Forms.MouseEventHandler(this.chbStrDepPerssonaliser_MouseClick);
+            // 
+            // nupStrDepAcceleration
+            // 
+            this.nupStrDepAcceleration.Location = new System.Drawing.Point(931, 3);
+            this.nupStrDepAcceleration.Name = "nupStrDepAcceleration";
+            this.nupStrDepAcceleration.Size = new System.Drawing.Size(65, 20);
+            this.nupStrDepAcceleration.TabIndex = 18;
+            this.nupStrDepAcceleration.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.nupStrDepAcceleration_MouseDoubleClick);
+            this.nupStrDepAcceleration.MouseCaptureChanged += new System.EventHandler(this.nupStrDepAcceleration_MouseCaptureChanged);
+            // 
+            // nupStrDepVittesse
+            // 
+            this.nupStrDepVittesse.Location = new System.Drawing.Point(931, 23);
+            this.nupStrDepVittesse.Name = "nupStrDepVittesse";
+            this.nupStrDepVittesse.Size = new System.Drawing.Size(65, 20);
+            this.nupStrDepVittesse.TabIndex = 19;
+            this.nupStrDepVittesse.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.nupStrDepVittesse_MouseDoubleClick);
+            this.nupStrDepVittesse.MouseCaptureChanged += new System.EventHandler(this.nupStrDepVittesse_MouseCaptureChanged);
+            // 
+            // chbStrDepCorectionPosition
+            // 
+            this.chbStrDepCorectionPosition.AutoSize = true;
+            this.chbStrDepCorectionPosition.Location = new System.Drawing.Point(1002, 39);
+            this.chbStrDepCorectionPosition.Name = "chbStrDepCorectionPosition";
+            this.chbStrDepCorectionPosition.Size = new System.Drawing.Size(110, 17);
+            this.chbStrDepCorectionPosition.TabIndex = 14;
+            this.chbStrDepCorectionPosition.Text = "Corection position";
+            this.chbStrDepCorectionPosition.UseVisualStyleBackColor = true;
+            // 
+            // chbStrDepCorAngleFin
+            // 
+            this.chbStrDepCorAngleFin.AutoSize = true;
+            this.chbStrDepCorAngleFin.Location = new System.Drawing.Point(1002, 5);
+            this.chbStrDepCorAngleFin.Name = "chbStrDepCorAngleFin";
+            this.chbStrDepCorAngleFin.Size = new System.Drawing.Size(117, 17);
+            this.chbStrDepCorAngleFin.TabIndex = 12;
+            this.chbStrDepCorAngleFin.Text = "Corection angle Fin";
+            this.chbStrDepCorAngleFin.UseVisualStyleBackColor = true;
+            // 
+            // chbStrDepCorAngleDebut
+            // 
+            this.chbStrDepCorAngleDebut.AutoSize = true;
+            this.chbStrDepCorAngleDebut.Location = new System.Drawing.Point(1002, 22);
+            this.chbStrDepCorAngleDebut.Name = "chbStrDepCorAngleDebut";
+            this.chbStrDepCorAngleDebut.Size = new System.Drawing.Size(130, 17);
+            this.chbStrDepCorAngleDebut.TabIndex = 13;
+            this.chbStrDepCorAngleDebut.Text = "Corection angle debut";
+            this.chbStrDepCorAngleDebut.UseVisualStyleBackColor = true;
+            // 
+            // rtbStrDepDebug
+            // 
+            this.rtbStrDepDebug.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.rtbStrDepDebug.Location = new System.Drawing.Point(0, 0);
+            this.rtbStrDepDebug.Name = "rtbStrDepDebug";
+            this.rtbStrDepDebug.Size = new System.Drawing.Size(113, 96);
+            this.rtbStrDepDebug.TabIndex = 0;
+            this.rtbStrDepDebug.Text = "";
             // 
             // label25
             // 
@@ -1430,7 +1686,7 @@ namespace appRoboBlutousse
             this.tacStrActRoPlateau.Location = new System.Drawing.Point(4, 22);
             this.tacStrActRoPlateau.Name = "tacStrActRoPlateau";
             this.tacStrActRoPlateau.Padding = new System.Windows.Forms.Padding(3);
-            this.tacStrActRoPlateau.Size = new System.Drawing.Size(1166, 102);
+            this.tacStrActRoPlateau.Size = new System.Drawing.Size(1256, 102);
             this.tacStrActRoPlateau.TabIndex = 3;
             this.tacStrActRoPlateau.Text = "Action robot plateau";
             this.tacStrActRoPlateau.UseVisualStyleBackColor = true;
@@ -1856,7 +2112,7 @@ namespace appRoboBlutousse
             // spcStrActRoboPlaConsImage.Panel2
             // 
             this.spcStrActRoboPlaConsImage.Panel2.Controls.Add(this.spcStrActRoboPlaVisuImage);
-            this.spcStrActRoboPlaConsImage.Size = new System.Drawing.Size(1160, 96);
+            this.spcStrActRoboPlaConsImage.Size = new System.Drawing.Size(1250, 96);
             this.spcStrActRoboPlaConsImage.SplitterDistance = 851;
             this.spcStrActRoboPlaConsImage.TabIndex = 32;
             // 
@@ -1925,8 +2181,8 @@ namespace appRoboBlutousse
             // spcStrActRoboPlaVisuImage.Panel2
             // 
             this.spcStrActRoboPlaVisuImage.Panel2.Controls.Add(this.pictureBox1);
-            this.spcStrActRoboPlaVisuImage.Size = new System.Drawing.Size(305, 96);
-            this.spcStrActRoboPlaVisuImage.SplitterDistance = 240;
+            this.spcStrActRoboPlaVisuImage.Size = new System.Drawing.Size(395, 96);
+            this.spcStrActRoboPlaVisuImage.SplitterDistance = 330;
             this.spcStrActRoboPlaVisuImage.TabIndex = 0;
             // 
             // richTextBox3
@@ -1934,7 +2190,7 @@ namespace appRoboBlutousse
             this.richTextBox3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.richTextBox3.Location = new System.Drawing.Point(0, 0);
             this.richTextBox3.Name = "richTextBox3";
-            this.richTextBox3.Size = new System.Drawing.Size(240, 96);
+            this.richTextBox3.Size = new System.Drawing.Size(330, 96);
             this.richTextBox3.TabIndex = 0;
             this.richTextBox3.Text = "";
             // 
@@ -1953,7 +2209,7 @@ namespace appRoboBlutousse
             this.tacStrActionRoCata.Location = new System.Drawing.Point(4, 22);
             this.tacStrActionRoCata.Name = "tacStrActionRoCata";
             this.tacStrActionRoCata.Padding = new System.Windows.Forms.Padding(3);
-            this.tacStrActionRoCata.Size = new System.Drawing.Size(1166, 102);
+            this.tacStrActionRoCata.Size = new System.Drawing.Size(1256, 102);
             this.tacStrActionRoCata.TabIndex = 4;
             this.tacStrActionRoCata.Text = " Action robo catapulte";
             this.tacStrActionRoCata.UseVisualStyleBackColor = true;
@@ -2033,7 +2289,7 @@ namespace appRoboBlutousse
             this.tapMainActionneur.Margin = new System.Windows.Forms.Padding(2);
             this.tapMainActionneur.Name = "tapMainActionneur";
             this.tapMainActionneur.Padding = new System.Windows.Forms.Padding(2);
-            this.tapMainActionneur.Size = new System.Drawing.Size(1359, 722);
+            this.tapMainActionneur.Size = new System.Drawing.Size(1449, 774);
             this.tapMainActionneur.TabIndex = 1;
             this.tapMainActionneur.Text = "Actionneur";
             this.tapMainActionneur.UseVisualStyleBackColor = true;
@@ -2047,7 +2303,7 @@ namespace appRoboBlutousse
             this.tacAct.Margin = new System.Windows.Forms.Padding(2);
             this.tacAct.Name = "tacAct";
             this.tacAct.SelectedIndex = 0;
-            this.tacAct.Size = new System.Drawing.Size(1355, 718);
+            this.tacAct.Size = new System.Drawing.Size(1445, 770);
             this.tacAct.TabIndex = 0;
             // 
             // tacActCatapulte
@@ -2057,7 +2313,7 @@ namespace appRoboBlutousse
             this.tacActCatapulte.Margin = new System.Windows.Forms.Padding(2);
             this.tacActCatapulte.Name = "tacActCatapulte";
             this.tacActCatapulte.Padding = new System.Windows.Forms.Padding(2);
-            this.tacActCatapulte.Size = new System.Drawing.Size(1347, 692);
+            this.tacActCatapulte.Size = new System.Drawing.Size(1437, 744);
             this.tacActCatapulte.TabIndex = 0;
             this.tacActCatapulte.Text = "Catapulte";
             this.tacActCatapulte.UseVisualStyleBackColor = true;
@@ -2113,7 +2369,7 @@ namespace appRoboBlutousse
             // 
             this.spcActCat.Panel2.Controls.Add(this.rtbActCatDebug);
             this.spcActCat.Panel2MinSize = 800;
-            this.spcActCat.Size = new System.Drawing.Size(1343, 688);
+            this.spcActCat.Size = new System.Drawing.Size(1433, 740);
             this.spcActCat.SplitterDistance = 350;
             this.spcActCat.TabIndex = 17;
             // 
@@ -2505,7 +2761,7 @@ namespace appRoboBlutousse
             this.rtbActCatDebug.Location = new System.Drawing.Point(0, 0);
             this.rtbActCatDebug.Margin = new System.Windows.Forms.Padding(2);
             this.rtbActCatDebug.Name = "rtbActCatDebug";
-            this.rtbActCatDebug.Size = new System.Drawing.Size(989, 688);
+            this.rtbActCatDebug.Size = new System.Drawing.Size(1079, 740);
             this.rtbActCatDebug.TabIndex = 7;
             this.rtbActCatDebug.Text = "";
             // 
@@ -2515,7 +2771,7 @@ namespace appRoboBlutousse
             this.tabPage5.Margin = new System.Windows.Forms.Padding(2);
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Padding = new System.Windows.Forms.Padding(2);
-            this.tabPage5.Size = new System.Drawing.Size(1347, 692);
+            this.tabPage5.Size = new System.Drawing.Size(1437, 744);
             this.tabPage5.TabIndex = 1;
             this.tabPage5.Text = "tabPage5";
             this.tabPage5.UseVisualStyleBackColor = true;
@@ -2527,7 +2783,7 @@ namespace appRoboBlutousse
             this.tacMainCommunication.Margin = new System.Windows.Forms.Padding(2);
             this.tacMainCommunication.Name = "tacMainCommunication";
             this.tacMainCommunication.Padding = new System.Windows.Forms.Padding(2);
-            this.tacMainCommunication.Size = new System.Drawing.Size(1359, 722);
+            this.tacMainCommunication.Size = new System.Drawing.Size(1449, 774);
             this.tacMainCommunication.TabIndex = 2;
             this.tacMainCommunication.Text = "Communication";
             this.tacMainCommunication.UseVisualStyleBackColor = true;
@@ -2541,7 +2797,7 @@ namespace appRoboBlutousse
             this.tacCom.Margin = new System.Windows.Forms.Padding(2);
             this.tacCom.Name = "tacCom";
             this.tacCom.SelectedIndex = 0;
-            this.tacCom.Size = new System.Drawing.Size(1355, 718);
+            this.tacCom.Size = new System.Drawing.Size(1445, 770);
             this.tacCom.TabIndex = 0;
             // 
             // tacComBlutoose
@@ -2551,7 +2807,7 @@ namespace appRoboBlutousse
             this.tacComBlutoose.Margin = new System.Windows.Forms.Padding(2);
             this.tacComBlutoose.Name = "tacComBlutoose";
             this.tacComBlutoose.Padding = new System.Windows.Forms.Padding(2);
-            this.tacComBlutoose.Size = new System.Drawing.Size(1347, 692);
+            this.tacComBlutoose.Size = new System.Drawing.Size(1437, 744);
             this.tacComBlutoose.TabIndex = 0;
             this.tacComBlutoose.Text = "Blutouse";
             this.tacComBlutoose.UseVisualStyleBackColor = true;
@@ -2579,7 +2835,7 @@ namespace appRoboBlutousse
             // spcComBluComandeVisue.Panel2
             // 
             this.spcComBluComandeVisue.Panel2.Controls.Add(this.rtbComBluDebug);
-            this.spcComBluComandeVisue.Size = new System.Drawing.Size(1343, 688);
+            this.spcComBluComandeVisue.Size = new System.Drawing.Size(1433, 740);
             this.spcComBluComandeVisue.SplitterDistance = 46;
             this.spcComBluComandeVisue.TabIndex = 5;
             // 
@@ -2589,7 +2845,7 @@ namespace appRoboBlutousse
             this.txbComBluMessageEnvoie.Location = new System.Drawing.Point(0, 26);
             this.txbComBluMessageEnvoie.Margin = new System.Windows.Forms.Padding(2);
             this.txbComBluMessageEnvoie.Name = "txbComBluMessageEnvoie";
-            this.txbComBluMessageEnvoie.Size = new System.Drawing.Size(1343, 20);
+            this.txbComBluMessageEnvoie.Size = new System.Drawing.Size(1433, 20);
             this.txbComBluMessageEnvoie.TabIndex = 3;
             // 
             // bpComBluEnvoieTrame
@@ -2678,7 +2934,7 @@ namespace appRoboBlutousse
             this.rtbComBluDebug.Location = new System.Drawing.Point(0, 0);
             this.rtbComBluDebug.Margin = new System.Windows.Forms.Padding(2);
             this.rtbComBluDebug.Name = "rtbComBluDebug";
-            this.rtbComBluDebug.Size = new System.Drawing.Size(1343, 638);
+            this.rtbComBluDebug.Size = new System.Drawing.Size(1433, 690);
             this.rtbComBluDebug.TabIndex = 0;
             this.rtbComBluDebug.Text = "";
             // 
@@ -2688,7 +2944,7 @@ namespace appRoboBlutousse
             this.tacComCan.Margin = new System.Windows.Forms.Padding(2);
             this.tacComCan.Name = "tacComCan";
             this.tacComCan.Padding = new System.Windows.Forms.Padding(2);
-            this.tacComCan.Size = new System.Drawing.Size(1347, 692);
+            this.tacComCan.Size = new System.Drawing.Size(1437, 744);
             this.tacComCan.TabIndex = 1;
             this.tacComCan.Text = "Can";
             this.tacComCan.UseVisualStyleBackColor = true;
@@ -2698,7 +2954,7 @@ namespace appRoboBlutousse
             this.tapSimulation.Location = new System.Drawing.Point(4, 22);
             this.tapSimulation.Name = "tapSimulation";
             this.tapSimulation.Padding = new System.Windows.Forms.Padding(3);
-            this.tapSimulation.Size = new System.Drawing.Size(1359, 722);
+            this.tapSimulation.Size = new System.Drawing.Size(1449, 774);
             this.tapSimulation.TabIndex = 3;
             this.tapSimulation.Text = "Simulation";
             this.tapSimulation.UseVisualStyleBackColor = true;
@@ -2717,7 +2973,7 @@ namespace appRoboBlutousse
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1367, 748);
+            this.ClientSize = new System.Drawing.Size(1457, 800);
             this.Controls.Add(this.tacMain);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
@@ -2745,42 +3001,46 @@ namespace appRoboBlutousse
             this.tbcStrConfigurateur.ResumeLayout(false);
             this.pjStrConfiguration.ResumeLayout(false);
             this.pjStrConfiguration.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown43)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown44)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown45)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown40)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown41)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown42)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupStrConGrandDistanceArret)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupStrConMoyeneDistanceArret)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupStrConPetiteDistanceArret)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupStrConGrandeDistance)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupStrConMoyenDistance)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupStrConPetiteDistance)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupStrConGrandAcceleration)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupStrConMoyenAcceleration)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupStrConPetiteAcceleration)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupStrConGrandVittesse)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupStrConMoyenVittesse)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupStrConPetitVittesse)).EndInit();
             this.pjStrConDeplacement.ResumeLayout(false);
             this.pjStrConDeplacement.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown26)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown27)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown25)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown24)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown23)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown21)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown22)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown20)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown19)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown18)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown17)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown16)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupStrDepCobY)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupStrDepCobX)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupStrDepCobNBPoint)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupStrDepRecArcAngle)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupStrDepRecArcRayon)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupStrDepRecArcY)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupStrDepRecArcX)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupStrDepAngle)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupStrDepLigne)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupStrDepRecNouvellePosition)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupStrDepRecDistanceMur)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupStrDepDepA)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupStrDepDepY)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupStrDepDepX)).EndInit();
+            this.spcStrDepPrepaVisu.Panel1.ResumeLayout(false);
+            this.spcStrDepPrepaVisu.Panel1.PerformLayout();
             this.spcStrDepPrepaVisu.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.spcStrDepPrepaVisu)).EndInit();
             this.spcStrDepPrepaVisu.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.nupStrDepArret)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupStrDepDistance)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupStrDepAcceleration)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupStrDepVittesse)).EndInit();
             this.tacStrActRoPlateau.ResumeLayout(false);
             this.tacStrActRoPlateau.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown38)).EndInit();
@@ -2922,14 +3182,14 @@ namespace appRoboBlutousse
         private System.Windows.Forms.NumericUpDown numericUpDown9;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.NumericUpDown numericUpDown6;
-        private System.Windows.Forms.NumericUpDown numericUpDown7;
-        private System.Windows.Forms.NumericUpDown numericUpDown8;
+        private System.Windows.Forms.NumericUpDown nupStrConGrandAcceleration;
+        private System.Windows.Forms.NumericUpDown nupStrConMoyenAcceleration;
+        private System.Windows.Forms.NumericUpDown nupStrConPetiteAcceleration;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.NumericUpDown numericUpDown5;
-        private System.Windows.Forms.NumericUpDown numericUpDown4;
-        private System.Windows.Forms.NumericUpDown numericUpDown3;
+        private System.Windows.Forms.NumericUpDown nupStrConGrandVittesse;
+        private System.Windows.Forms.NumericUpDown nupStrConMoyenVittesse;
+        private System.Windows.Forms.NumericUpDown nupStrConPetitVittesse;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.CheckBox chbStrDepCourbedebesier;
@@ -2937,7 +3197,7 @@ namespace appRoboBlutousse
         private System.Windows.Forms.CheckBox chbStrDepDeplacement;
         private System.Windows.Forms.CheckBox chbStrDepDeplacementXY;
         private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.NumericUpDown numericUpDown10;
+        private System.Windows.Forms.NumericUpDown nupStrDepDepX;
         private System.Windows.Forms.TabPage tacStrActRoPlateau;
         private System.Windows.Forms.Label label29;
         private System.Windows.Forms.Label label28;
@@ -2948,58 +3208,58 @@ namespace appRoboBlutousse
         private System.Windows.Forms.CheckBox checkBox10;
         private System.Windows.Forms.CheckBox checkBox9;
         private System.Windows.Forms.Label label32;
-        private System.Windows.Forms.NumericUpDown numericUpDown16;
-        private System.Windows.Forms.NumericUpDown numericUpDown15;
-        private System.Windows.Forms.CheckBox checkBox13;
-        private System.Windows.Forms.CheckBox checkBox12;
-        private System.Windows.Forms.CheckBox checkBox11;
-        private System.Windows.Forms.CheckBox checkBox8;
-        private System.Windows.Forms.CheckBox checkBox7;
-        private System.Windows.Forms.CheckBox checkBox6;
-        private System.Windows.Forms.NumericUpDown numericUpDown12;
-        private System.Windows.Forms.CheckBox checkBox5;
-        private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.NumericUpDown numericUpDown11;
+        private System.Windows.Forms.NumericUpDown nupStrDepVittesse;
+        private System.Windows.Forms.NumericUpDown nupStrDepAcceleration;
+        private System.Windows.Forms.CheckBox chbStrDepPV;
+        private System.Windows.Forms.CheckBox chbStrDepGV;
+        private System.Windows.Forms.CheckBox chbStrDepMV;
+        private System.Windows.Forms.CheckBox chbStrDepCorectionPosition;
+        private System.Windows.Forms.CheckBox chbStrDepCorAngleDebut;
+        private System.Windows.Forms.CheckBox chbStrDepCorAngleFin;
+        private System.Windows.Forms.NumericUpDown nupStrDepDepA;
+        private System.Windows.Forms.CheckBox chbStrDepDeplacementA;
+        private System.Windows.Forms.Label labStrDepDepY;
+        private System.Windows.Forms.Label labStrDepDepX;
+        private System.Windows.Forms.NumericUpDown nupStrDepDepY;
         private System.Windows.Forms.Label label38;
         private System.Windows.Forms.CheckBox checkBox20;
         private System.Windows.Forms.CheckBox checkBox19;
         private System.Windows.Forms.CheckBox checkBox18;
         private System.Windows.Forms.Label label37;
-        private System.Windows.Forms.Label label36;
-        private System.Windows.Forms.NumericUpDown numericUpDown18;
-        private System.Windows.Forms.Label label35;
-        private System.Windows.Forms.CheckBox checkBox17;
-        private System.Windows.Forms.CheckBox checkBox16;
-        private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.CheckBox checkBox15;
-        private System.Windows.Forms.CheckBox checkBox14;
-        private System.Windows.Forms.NumericUpDown numericUpDown17;
-        private System.Windows.Forms.Label label33;
+        private System.Windows.Forms.Label labStrDepRecType;
+        private System.Windows.Forms.NumericUpDown nupStrDepRecNouvellePosition;
+        private System.Windows.Forms.Label labStrDepReqNouvellePosition;
+        private System.Windows.Forms.CheckBox chbStrDepRecAxeY;
+        private System.Windows.Forms.CheckBox chbStrDepRecAxeX;
+        private System.Windows.Forms.Label labStrDepRecAxe;
+        private System.Windows.Forms.CheckBox chbStrDepRecTypeArrier;
+        private System.Windows.Forms.CheckBox chbStrDepRecTypeAvan;
+        private System.Windows.Forms.NumericUpDown nupStrDepRecDistanceMur;
+        private System.Windows.Forms.Label labStrDepRecDistMur;
         private System.Windows.Forms.Label label39;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.CheckBox chbStrDepArcdecercle;
-        private System.Windows.Forms.CheckBox checkBox23;
-        private System.Windows.Forms.CheckBox checkBox22;
-        private System.Windows.Forms.NumericUpDown numericUpDown20;
-        private System.Windows.Forms.NumericUpDown numericUpDown19;
-        private System.Windows.Forms.NumericUpDown numericUpDown24;
-        private System.Windows.Forms.NumericUpDown numericUpDown23;
-        private System.Windows.Forms.Label label43;
-        private System.Windows.Forms.Label label42;
-        private System.Windows.Forms.Label label40;
-        private System.Windows.Forms.Label label41;
-        private System.Windows.Forms.NumericUpDown numericUpDown21;
-        private System.Windows.Forms.NumericUpDown numericUpDown22;
-        private System.Windows.Forms.Label label45;
-        private System.Windows.Forms.Label label46;
-        private System.Windows.Forms.NumericUpDown numericUpDown26;
-        private System.Windows.Forms.NumericUpDown numericUpDown27;
-        private System.Windows.Forms.NumericUpDown numericUpDown25;
-        private System.Windows.Forms.Label label44;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.CheckBox chbStrDepAngle;
+        private System.Windows.Forms.CheckBox chbStrDepLigne;
+        private System.Windows.Forms.NumericUpDown nupStrDepAngle;
+        private System.Windows.Forms.NumericUpDown nupStrDepLigne;
+        private System.Windows.Forms.NumericUpDown nupStrDepRecArcAngle;
+        private System.Windows.Forms.NumericUpDown nupStrDepRecArcRayon;
+        private System.Windows.Forms.Label labStrDepRecArcRayon;
+        private System.Windows.Forms.Label labStrDepRecArcAngle;
+        private System.Windows.Forms.Label labStrDepRecArcY;
+        private System.Windows.Forms.Label labStrDepRecArcX;
+        private System.Windows.Forms.NumericUpDown nupStrDepRecArcY;
+        private System.Windows.Forms.NumericUpDown nupStrDepRecArcX;
+        private System.Windows.Forms.Label labStrDepCobY;
+        private System.Windows.Forms.Label labStrDepCobX;
+        private System.Windows.Forms.NumericUpDown nupStrDepCobY;
+        private System.Windows.Forms.NumericUpDown nupStrDepCobX;
+        private System.Windows.Forms.NumericUpDown nupStrDepCobNBPoint;
+        private System.Windows.Forms.Label labStrDepCobNBPoint;
+        private System.Windows.Forms.ComboBox cbStrDepCobChoixDuPoint;
         private System.Windows.Forms.SplitContainer spcStrDepPrepaVisu;
-        private System.Windows.Forms.RichTextBox richTextBox2;
+        private System.Windows.Forms.RichTextBox rtbStrDepDebug;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.NumericUpDown numericUpDown38;
         private System.Windows.Forms.Label label60;
@@ -3033,18 +3293,25 @@ namespace appRoboBlutousse
         private System.Windows.Forms.ComboBox cbStrActRpDeclencheur;
         private System.Windows.Forms.SplitContainer spcStrActRoboPlaVisuImage;
         private System.Windows.Forms.RichTextBox richTextBox3;
-        private System.Windows.Forms.NumericUpDown numericUpDown43;
-        private System.Windows.Forms.NumericUpDown numericUpDown44;
-        private System.Windows.Forms.NumericUpDown numericUpDown45;
+        private System.Windows.Forms.NumericUpDown nupStrConGrandDistanceArret;
+        private System.Windows.Forms.NumericUpDown nupStrConMoyeneDistanceArret;
+        private System.Windows.Forms.NumericUpDown nupStrConPetiteDistanceArret;
         private System.Windows.Forms.Label label68;
         private System.Windows.Forms.Label label64;
-        private System.Windows.Forms.NumericUpDown numericUpDown40;
-        private System.Windows.Forms.NumericUpDown numericUpDown41;
-        private System.Windows.Forms.NumericUpDown numericUpDown42;
+        private System.Windows.Forms.NumericUpDown nupStrConGrandeDistance;
+        private System.Windows.Forms.NumericUpDown nupStrConMoyenDistance;
+        private System.Windows.Forms.NumericUpDown nupStrConPetiteDistance;
         private System.Windows.Forms.TabPage tacStrActionRoCata;
         private System.Windows.Forms.TabPage tapSimulation;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label63;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.CheckBox chbStrDepPerssonaliser;
+        private System.Windows.Forms.Label label35;
+        private System.Windows.Forms.Label label36;
+        private System.Windows.Forms.NumericUpDown nupStrDepArret;
+        private System.Windows.Forms.NumericUpDown nupStrDepDistance;
     }
 }
 
